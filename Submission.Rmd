@@ -45,3 +45,10 @@ library("papaja")
 # Seed for random number generation
 set.seed(42)
 ```
+
+```{r allow rendering of pdf docs}
+if(!"tinytex" %in% rownames(installed.packages())) install.packages("tinytex")
+tinytex::install_tinytex()
+```
+
+# References
