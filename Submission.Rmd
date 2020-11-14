@@ -1,0 +1,47 @@
+---
+title             : "What are the effective components of an Educational Psychology consultation: a mixed methods exploration"
+shorttitle        : "What are the effective components of consultation?"
+
+author: 
+  - name          : "XCVC1"
+    affiliation   : "1"
+    corresponding : yes    # Define only one corresponding author
+    address       : "N/a"
+    email         : "N/a"
+
+
+affiliation:
+  - id            : "1"
+    institution   : "Institute of Education UCL"
+
+
+abstract: |
+  
+  
+keywords          : ""
+wordcount         : ""
+
+bibliography      : [citations.bib]
+
+figsintext        : no
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+lineno            : yes
+mask              : no
+
+class             : "man"
+output            : papaja::apa6_pdf
+
+                 
+---
+
+```{r load_packages, include = FALSE}
+install.packages("papaja", repos='http://cran.us.r-project.org')
+library("papaja")
+```
+
+```{r analysis_preferences}
+# Seed for random number generation
+set.seed(42)
+```
