@@ -28,6 +28,8 @@ webshot::install_phantomjs()
 #devtools::install_github("crsh/papaja")
 ```
 
+UNNECESSARY CHANGES!!!!
+
 DO I NEED TO DEFINE THE WORD 'FEATURE'?
 
 # 1 Introduction 
