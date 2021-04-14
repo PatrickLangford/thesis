@@ -16,8 +16,6 @@ options(tinytex.verbose = TRUE)
 install.packages('DiagrammeR', repos = c("http://rstudio.org/_packages",
                            "http://cran.rstudio.com"))
 library(DiagrammeR)
-install.packages("tinytex", repos = c("http://rstudio.org/_packages",
-                           "http://cran.rstudio.com"))
 tinytex::install_tinytex()
 tinytex::tlmgr_install("pdfcrop")
 #Sys.setenv(R_GSCMD="C:/Program Files/gs/gs9.54.0/bin/gswin64.exe")
@@ -27,8 +25,6 @@ webshot::install_phantomjs()
 #will likely need the papaja for the write up in general (which has to be installed with the code below as it's not on CRAN yet)
 #devtools::install_github("crsh/papaja")
 ```
-
-UNNECESSARY CHANGES!!!!
 
 DO I NEED TO DEFINE THE WORD 'FEATURE'?
 
