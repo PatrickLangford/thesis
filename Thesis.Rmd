@@ -2,16 +2,16 @@
 title: "What are the effective features of consultation? A mixed methods approach"
 date: "28/05/2021"
 output:
+  word_document:
   html_document:
     #df_print: paged
   pdf_document: default
-  word_document:
 always_allow_html: yes
 #bibliography: thesis.bib
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-options(tinytex.verbose = TRUE)
+#options(tinytex.verbose = TRUE)
 #Install DiagrammeR to create the thematic map. It won't create a pdf without webshot and phantom.
 install.packages('DiagrammeR', repos = c("http://rstudio.org/_packages",
                            "http://cran.rstudio.com"))
@@ -189,29 +189,274 @@ The categories are defined and operationalised prior to data collection [@croll_
 
 # 3 Results
 
+NEED INTRODUCTION TO SECTION
+
+MAYBE THEMATIC MAP?
+
 ## 3.1 Interviews
 
-29 EPs of varying roles and locations were interviewed. Participants included TEPs, maingrade EPs, specialist EPs, senior EPs, and Principal EPs from all over the U.K. and the Republic of Ireland. The results will be divided in two, according to the research question they relate to.
+30 EPs of varying roles and locations were interviewed. Participant's roles included TEPs, maingrade EPs, specialist EPs, senior EPs, and Principal EPs. The participants worked in locations such as London, Yorkshire, Wales, and the Republic of Ireland. Thematic analysis identified 32 inductive codes, as well as the 15 deductive codes, relating to what features EPs believed were effective for consultation. 6 codes were identified for what made said features effective (see Appendix XXX for all codes and definitions). These were combined to create 8 themes: Buy-in, Conditions, Context, Strengths-based, Shared understanding, Intervention, Future facing, and EP skills and knowledge. These could then be combined to create two super themes: Internal factors and External factors (see Appendix XXX for a complete mapping of codes to themes and super themes).
 
-### 3.1.1 What do EPs believe are the core features of a joint school-parent consultation?
+### 3.1.1 Buy-in
 
-Preliminary thematic analysis of the questions relating to the features of consultation revealed common codes. Some of the most common explicitly identified features of consultation included: building a trusting relationship with the consultee(s); collaboration; exploring solutions; valuing everyone's contributions; and the EP moving away from an expert role. The most commonly named model of consultation was Solution-Focused. Using the deductively analysed codes, 'suggesting solutions', 'everyone's contributions being valued', and 'EPs using expert knowledge' were the most commonly coded features. However, every EP who stated they made use of their specialist knowledge explicitly stated they did not want to take an "expert role"; an external professional who came in to a situation and told everyone what to do and how to fix things. They emphasised the importance of creating a shared space to explore everyone's views and taking on board their ideas. 
+This theme related to the importance of EPs creating a bond with those involved, including the consultee(s) and other school staff members not directly involved in the consultation, and using this relationship to facilitate change. 
 
-Several of the other questions revealed what EPs believed were key features of consultations. Many EPs stated they felt they lost something with telephone or video call consultations (though certainly not all of them). They typically referenced an increase difficulty in picking up on subtle non-verbal cues and being able to develop a relationship with the consultee(s). This suggests face-to-face meetings are an important feature of consultations, as EPs believe they need them to help them effectively conduct a consultation. The most commonly given barriers to consultation included a lack of time, the school buying into the process and philosophy of consultation (including seeing its value), 
+#### 3.1.1.1 Collaborative
 
-### 3.1.2 How do EPs use technology when engaging in consultation and what are their views towards it?
+One of the fundamental and most oft cited features for creating buy-in was making consultation collaborative. Within the consultation, this was achieved through a variety of factors. One of the key ones was making sure there was equal participation, such that everyone had a voice and different perspectives were heard: "effective consultation shouldn't being a meeting where one person dominates, whether that may be a psychologist or anyone else" (Interview 11) and "it's like we're all involved, we're all at the same level, we just come at it from a different perspective" (Interview 7). 
 
-Preliminary thematic analysis of questions exploring EP views towards technologically mediated consultations highlighted several concepts. Most EPs stated they could see the value of using technology (telephone or video call tools) during a consultation. Some stated they would incorporate it into their practice once the lockdown had been lifted, although many still felt that in-person consultation was superior. This was because of the potential issues with technologically mediated consultations ranging from the banausic issue of connectivity problems to difficulties with rapport building. Given the importance almost every EP placed on building a positive relationship, this poses a problem for technologically mediated consultations. However, this sentiment was not universal. A few EPs stated they did not feel any loss of rapport quality when using technologically mediated consultations. One EP had been exclusively using phone consultations for almost a year prior to the lockdown at the request of the consultees (predominantly teachers). They reported that consultees preferred this method of consultation and both consultant and consultees felt able to develop a positive working relationship.
+As a result of there being equal participation, there is a greater chance that everyone involved has the same understanding of the situation and the CYP: "to bring everyone together, and to co-create and co-construct a shared narrative" (Interview 11). Misunderstandings can be cleared up (Interview 5) and these help everyone feel involved in the process and ensure that the consultation is collaborative. The creation of a shared narrative can also include the the creation of a shared agenda. This helps guide the consultation so it is more effective as it is meeting the needs of those involved and everyone agrees to it: "I think a really fundamentally important part of that consultation is ensuring that we do have that shared agenda; we know why we're there together and we all agree what we're doing there together" (Interview 24) and "to arrive at a joint action plan, joint for the school and the parents, school are always involved as well, so it's more collaborative" (Interview 10).
 
-Several EPs stated they believed using technology broadened their access to some families and young people. If parents have difficulties attending the school, due to either busy work schedules or their own personal difficulties, contacting them when and where was more convenient for them increased participation rates. EPs also stated they could engage more with young people, as they could call them in the young person's home or room. As the young person was in a safe and familiar environment, they often felt more comfortable talking to the EP. Some EPs hypothesised the young people felt more comfortable speaking through a device because they are more familiar with this form of communication. Many EPs stated they appreciated not having to travel for consultations. This was especially true for EPs who had to spend hours travelling to and from schools. Most stated they felt this increase in wellbeing due to decreased travel times improved the quality of their work and relationships, as they had more time to think about each case.
+This shared agenda can be established by identifying what everyone is hoping to get from the consultation: 
 
-Some of the issues highlighted with regards to using technologically mediated consultations included difficulties in understanding one another, especially when English was not a members first language. 
+|   it would always start with a question about what are your best hopes from our meeting together? What are your best hopes from |   our work together? Because if we don't start with that question, erm, then we don't know where we're trying to get to.
+|   (Interview 27)
+
+By working collaboratively with those involved, EPs can facilitate collaboration between the home and school. This can potentially support both by helping maintain morale and creating a sense of shared responsibility: 
+
+|   there is something that goes on often, not always, in the room when you've got the family, and school together, the, you do  |   you do bring that sense of, 'We are working on this together; you are not alone school in this, you are not alone parents in |   this, we are doing this together'. (Interview 5)
+
+#### 3.1.1.2 Contributions valued
+
+A related code, and one which can facilitate a collaborative consultation, is the idea that everyone who is present in the consultation should feel able to contribute. Not only this, but they need to believe that what they say will be taken on board: 
+
+where I would like to think that their views, their knowledge, their understanding is just as valid as mine… we are equal participants in this (Interview 13).
+
+equal participation, you know, as far as possible, or that everybody participates and that everybody feels valued, everybody feels that what they had to say is useful (Interview 20). 
+
+This can help give power to those who may not typically have it in the school environment, thus helping create a more level playing field and therefore a more collaborative consultation: "schools are by nature very hierarchical. So if you've got a TA they're often not seen as the same as, you know, a SENCO or a head teacher's views but in that situation they are" (Interview 1).
+
+#### 3.1.1.3 Encouraging engagement
+
+Removing power dynamics within a consultation was seen by many participants as an important part of the EPs role within consultation. This formed part of the code 'EP encouraging engagement'. The EP must try and create a space so no consultee feels intimidated and in which all relevant people can contribute, even if they cannot physically be present: 
+
+the psychologist trying to level power dynamics is a really key, a really key part of any consultation and that erm that's in relation to ourselves, as a professional with a doctorate normally, but also in relation to the family and the teacher, or the family and the school. (Interview 2)
+
+balance of people's voices in the rooms. So, erm, making time for those that might not be able to be present in the meeting to hear their views and voices. (Interview 27)
+
+This code related to any effort by the EP to attempt to include the voices of the relevant parties. One of the ways that this is through "active listening" (Interview 1). A key idea related to the EP facilitating others to participate:
+
+I'm there to help facilitate the group in thinking about ways forward. (Interview 15)
+
+giving a space where people can listen to other people's perspectives, then you take away the bulk of what it is that you're, erm, using to try and make a difference. (Interview 21)
+
+Not only does the EP need to facilitate others, but also challenge potentially harmful narratives and navigate difficult situations:
+
+being careful and being prepared to challenge. (Interview 25)
+
+sometimes a kind of mediation role because it's, we work in complex and messy situations. And it's not always that people are going to agree, or even really want to hear what they have to say. So there's that kind of control in the, the floor that happens in a consultation, which doesn't happen in other types of conversation. (Interview 3)
+
+Being able to read body language was identified by a few EPs as being important for facilitating engagement:
+
+You try to do an online meeting, you lose the gesticulations, you lose the, er, being able to point at things or being able to, you know, look at their faces better and realise, 'Oh, they're not understanding, I need to change the way I'm explaining it' or something. I think you lose so much because it's that non-verbal feedback that you get, that allows you to know where you are at with the relationship, to know the way you can develop within that consultation. (Interview 24)
+
+However, this was not universal. A few EPs found that using technologically-mediated (tech) consultations did not lead to a decrease in quality of the relationship. One EP experienced her consultees asking for telephone consultations and that these were effective. (Interview 16) 
+
+#### 3.1.1.4 Rapport
+
+The difference between in-person and tech consultations relates to another core feature, which is the development of a rapport with those involved in consultations. Within the consultation, an EP must quickly develop a rapport so that the consultees feel comfortable talking about potentially difficult topics:
+
+trust and credibility and shared mutual respect, I think are at the core of any consultation. You know, they value what I offer because I'm in touch and the fact they get on well with me, that almost therapeutic relationship. (Interview 7)
+
+built up that trust and sense of safety, that it's okay to express their worries, that you can get quite a lot of information. (Interview 10)
+
+The EP needs to not only develop a rapport with those involved, but encourage relationships between consultees: "building attuned interactions in a meeting with parents, with teachers, and then hopefully between them as well. It just kind of gets everyone on the same page, hopefully gets everyone pointing in the right direction" (Interview 30). This is especially important when relationships between the home and school have broken down:
+
+Because if you don't have that, you know, sometimes you have a breakdown between parents and the school, the relationship, you know, in a way that, you can be a person in between, and try and get that working through that, erm, which is, you know, a key feature of consultation, that, you know, you're working in some difficult situations, erm, and if there's a breakdown, in the relationship between both, erm, it's a way of trying to bring it back together. (Interview 4)
+
+Several EPs talked about the importance of having a good relationship with the school. A good relationship between the school (generally understood to mean at least the SECNCos and potentially Senior Leadership Team) helps consultation to be more effective: 
+
+if it's going to be successful model in a school, I think the need is that, actually, you know, time for the EP to build a relationship with the school is important. (Interview 23)
+
+The reason the relationship is crucial for improving consultation is that when the EP has developed a good relationship with the school and they are mutually supporting one another, it is easier to create an environment which fosters collaboration: 
+
+when you know the school especially, and they're supporting you in supporting the parents and the staff to do that, then you see it a lot more” (Interview 1). 
+
+Schools are often hesitant to adopt consultation as the main method of EP work: some of the SEN schools that I work with have a very rigid way of seeing the EP role and what we do, and they're, they're view is, more often than not, my role as an EP is to go in, do an assessment, write a report, and that's it. Er, so in those instances, I find it much harder to sell consultation as a, as a model. (Interview 11)
+
+However, several EPs spoke of using their relationship with the school to change how they approach EP work and what the EP can do in the school: 
+
+once you build a relationship with schools, and you've been working in it, you can shift things, you can move things around, to, you know, working with a bit more control, getting them to see how, you know, it can be more effective, working with consultation, not doing just lots of assessments. (Interview 4).
+
+That's how you change it. I think that the relationship is super important. (Interview 23)
+
+#### 3.1.1.5 EP view of consultation and Consultee view of consultation
+
+An important feature of consultation that relates to rapport is the understanding that the consultees, EP, and school as a whole have towards consultation. How the EP and consultees view consultation can have a large impact on a consultation and its efficacy. A belief shared by many interviewees was that "both parties, kind of, know how consultation works" (Interview 24) and this "might depend on people's constructs of what consultation is" (Interview 29). Interviewees had an overwhelmingly positive view of consultation, highlighting its versatility and alignment with their values:
+
+consultation, I think, is a, is a framework with the complexity that matches the complexity of the concerns that are being raised. Erm, we're looking at concerns at an individual and a group and a systemic level (Interview 21).
+
+I don't think you can be inclusive without using a consultative model (Interview 25).
+
+Though many interviewees identified the value of consultation and the importance of clearly understanding it and what it involves, many also pointed out that there is a large heterogeneity of practice among EPs: "I think that concept of what a consultation is will vary from one EP to another" (Interview 24). There are also EPs who do not value it and prefer a more traditional style of assessing children and then writing a report. As one interviewee said: "I know there's a lot of EPs out there that continue to work in that way and I think, I think that's one of the barriers to shifting more to a consultation framework" (Interview 17). One interviewee, who had recently attended a course on consultation provided by their EPS, stated: 
+
+I'm not sure a lot of EPs really understand what it is. Being able to communicate that... even on that consultation course that I mentioned I went on, I was really surprised that people, people very open and very honest, and they said, 'We've been saying we've been using consultation, but we actually have not. We've realised now that we haven't really been using consultation'. (Interview 22)
+
+This makes it difficult for consultees to gain a clear understanding of what consultation is and has led a few EPs to call for clearer communication and "being better at communicating... what it is and what it can do" (Interview 22). One of the reasons it is important consultees understand what consultation means is so they can see the value in it. Many interviewees described how some of the schools they work in do not appreciate it fully:
+
+if I could click my fingers and change something on a systemic level, it would be the attitude toward consultation because I I really view them as an investment. If you invest in a consultation, you're going to get better work and and outcomes. Whereas, sometimes they can be viewed as an expensive hurdle you have to get over to get a standardised score. (Interview 2)
+
+I think there are some schools that, erm, have a negative view of consultation. Because of that. It's, it's more complex procedure I think, people realise. (Interview 10)
+
+I think we need to educate our schools more about 'This is what the process is', because we say in sales blurb 'We do a consultation' and, erm, and then the schools are still stuck in that, kind of, old way of thinking. (Interview 28)
+
+A recurring comment centred around the differences between primary and secondary schools, with primaries typically being more willing to engage with them:
+
+most primary SENCOs are very open to whatever I suggest. And they're quite open to different ways of working, as long as they have a report to use as evidence, er, for EP involvement, so it has that element of of a tick box. But most primary schools are very open to different ways of looking, I would say, but secondaries definitely aren't. (Interview 18)
+
+#### 3.1.1.6 EP view of EPs and Consultee view of EPs
+
+Another relevant strand to the different perceptions of consultations is how the consultees view EPs and their role. Several interviewees talked about how they were viewed as gatekeepers to resources or as someone who would fix the situation independently of any work by the consultees:
+
+the associations that staff or parents can have of us as being, kind of, the deciders of resources. So we will go in and we will say, and we will think we are there to support to think about what we can do for this child, and they will think we are coming in to say 'Yes you can have any EHCP' or 'Yes you can have extra money'. (Interview 1)
+
+if school are new to that way of working and they are used to having an EP come in and, sort of, tell them what to do. I do notice that sometimes there's a bit of confusion, er, especially from some teachers who are, 'Why are you asking me, aren't you supposed to tell me what I need to do'? (Interview 11)
+
+How receptive a school is to consultation as a way of working "very much comes down to the school's view of my role" (Interview 14). 
+
+How the consultees view the EP can be changed in the consultation itself: "You're modelling how psychologists think... they might think a psychologist is on a pedestal or whatever, but you're modelling that psychologists are like everybody else" (Interview 7). To help level this power dynamic, EPs often try to present themselves as not having a privileged position, as some interviewees talked about "not putting themselves in an expert position" (Interview 27). This is because "It's the process of discussion itself, erm, that leads to, kind of, outcomes, rather than taking on an expert model." (Interview 14). However, a few EPs pushed back against the framing of the EPs non-expert stance as it can be counter-productive: "I think, erm, sometimes EPs can go too far the other way in not being the expert... it's a little bit disingenuous, because sometimes we've got a lot of good ideas to offer" (Interview 27). How strongly they take on the role of the expert was independent of the importance of most EPs placed on being empathetic and supportive: 
+
+you're in the situation as a human being, but also trying to be a psychologist as well, and they're quite difficult to do at the same time. (Interview 14)
+
+I think you need to be an ally, and a guide, but not be, 'I know what you should do and you should do this'. (Interview 23)
+
+#### 3.1.1.7 Willing to engage
+
+All of these features though are dependent upon the consultees being willing to engage
+
+the effectiveness is because of engagement, critical thinking process thinking, and then plan your own action plans, which you're also engaged in. (Interview 5)
+
+at the same time, to know that the reason that everyone is around the table for this consultation is to try and shift that thinking in some way. And usually, you know, just by nature of showing up everybody does want that, even if they don't necessarily believe it to be possible, which is why I think those features of consultation are effective. (Interview 3)
+
+Just general engagement from either the parents or school, and the willingness to, to change; the willingness to change their practice. (Interview 5).
+
+#### 3.1.1.8 Consultee ownership
+
+Several interviewees talked about how these features are effective because they help create a sense of consultee ownership of the situation. By being collaborativeThe consultees are more likely to buy into the process of consultation and are therefore more likely to feel they can be an active agent in supporting the CYP:
+
+when people are active participants in a process, any process, they would be more likely to follow through with what has been agreed in terms of, whether that would be actions, whether that would be a specific approach that needs to be put in place. (Interview 11)
+
+they retain some sense of ownership and some, er, sense of responsibility for putting in place what comes next. (Interview 20)
+
+the point of that conversation is to leave something behind for the people who actually have power to do things and if you don't have their buy-in, then it's totally pointless. I'm struggling to think of a method, outside of consultation, where you could get that buy in and that information share and get to any kind of meaningful endpoint. (Interview 3)
+
+#### 3.1.1.9 Realistic
+
+Another commonly discussed mechanism for effective consultations was the increased chance of realistic recommendations and outcomes being established. If the ideas generated are more co-constructed and built on shared knowledge, they are more likely to be feasible:
+
+it also allows for reality, so if you've, you know, hopefully you're not getting ideas or strategies that are completely unworkable. So it should be based within the practice of the class teacher. So it isn't, you know, somebody coming in and going, 'Well, you need to do this three times a day with, you know, dah, dah, dah, dah, dah'. (Interview 21)
+
+the feedback we get from parents that things are very grounded in reality, that the ideas that we're talking about makes sense because they come from a position of understanding and making sense of whatever is being brought into the room and, sort of, helping to manage some of the complexity. (Interview 27)
+
+#### 3.1.1.10 Consultees as experts
+
+The final code from this theme relates to treating the consultees as experts of their own area:
+
+I try to make it collaborative because erm, my stance is that we all bring our own expertise; they're experts as parents, they're experts on their child. Erm and as teachers, they're experts on, you know, teaching that child and teaching in general. (Interview 8)
+
+I think they're effective because, we're capitalising on that idea that people are experts in their own lives. (Interview 22)
+
+### 3.1.2 EP skills and knowledge
+
+The other most common theme related to the psychological knowledge and skills EPs need to use when engaging in consultation.
+
+#### 3.1.2.1 Knowledge
+
+The most common code across all themes was in relation to the models of consultation and general psychological knowledge that the interviewees believed EPs needed to have to facilitate an effective consultation. Commonly discussed models and frameworks included being solution-focused (Interview 1), person-centred (Interview 16), trauma and attachment informed (Interview 13), and using  Wagner's model of consultation (Interview 17) and the COMOIRA model (Interview 25). Other specific psychological areas included using principles from Narrative Therapy (Interview 17), an ecosystemic model (Interview 2), social constructivism (Interview 6), as well as psychologies such as positive psychology (Interview 9). Some interviewees saw their role as "sharing, erm and disseminating psychological theory" (Interview 18) and that consultation "helped [them] really use psychology with [their] schools" (Interview 11).
+
+The use of a model was often spoken positively as "[giving] the consultation a structure" (Interview 11).
+
+psychology, the use of theory and reference to the evidence base (Interview 2)
+
+
+#### 3.1.2. 
+
+#### 3.1.2. 
+
+
+
+### 3.1. Strengths-based
+
+#### 3.1.. Empowering individuals
+
+#### 3.1.. What's already working
+
+#### 3.1.. CYP strengths
+
+
+
+
+
+
+
+
+
+
+
+Efficient
+Outside system
+Varied space for approach
+Assessment
+Changing perspectives
+Clarity
+Confidential
+Different views
+Documentation
+Education systems
+EP workload
+Goal setting
+Individual differences
+Key people
+Language
+Preparation
+
+I think it's always about, planning that structure. (Interview 19)
+
+
+Preventative
+Questioning
+Rapport
+Reflective
+Reflexive
+Resources
+Space
+Supporting consultees
+Time
+
+I don't think you can have, say an, effective 20 minute consultation. It's not a consultation. (Interview 26)
+
+Understanding of SEN
+Use of aids
+Way forward
+Willing to engage
+
+
+
+
+#### Intervention
+
+By creating a safe space for exploration and potential challenging, another key feature of consultation can happen: the consultation acting as an intervention itself. This can be done
+
+
+
+POTENTIALLY USE ELSEWHERE
+The EP is gathering and summarising the ideas and saying, 'Given what we've discussed, and the ideas we've heard so far, what is going to make most sense for this young person and what's going to make most difference'? And then it's getting the ideas from the people. (Interview 27)
+
+Collaboration was identified as a key factor not only because it increased the consultee's willingness to engage but because it increased the chances of the recommendations being put in place:
+
+I think if you have a really good consultation and you can actually problem solve together, and the people that you're consulting with, actually come up with some of the ideas, then it's much more likely for those interventions to happen. (Interview 20)
+
+#### 
+
+
 
 ## 3.2 Questionnaire
 
-68 EPs with a wide range of roles, including TEPs and Principal EPs, from all areas of the U.K. completed the questionnaire. Preliminary analysis of the data shows that joint school-parent consultations were one of the most frequently performed types of work prior to the lockdown, along with parent consultation, individual assessment, and training. Many stated they could no longer engage in most of their typical types of work, such as observation, individual assessment, and joint school-parent consultations. Most stated they found the changes 'very challenging'. A majority of respondents replaced face to face meetings with telephone calls and some replaced them with video calls. Some respondents stated they found it harder to elicit the views of CYP when working remotely.
 
-### QCA
+
+
+
+## Observations
 
 No pair-wise simplifications could be made as there were no consultations which saw change which differed by only 1 feature.
 
@@ -301,6 +546,14 @@ a -> {b c d e}
 
 }")
 ```
+
+
+
+
+# Discussion
+
+Buy-in was facilitated by the EP not taking an expert stance and creating a collaborative and sharing environment for the consultees to explore their thoughts.
+
 
 # Appendices
 
