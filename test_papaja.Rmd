@@ -40,7 +40,7 @@ draft             : no
 
 classoption       : "man"
 csl               : "apa.csl"
-documentclass     : "apa7"
+documentclass     : "apa"
 output            : papaja::apa6_pdf
 #output            : papaja::apa6_word
 
@@ -49,8 +49,10 @@ output            : papaja::apa6_pdf
 ```{r setup, include = FALSE}
 library("papaja")
 r_refs("Thesis.bib")
+if(!"tinytex" %in% rownames(installed.packages())) install.packages("tinytex")
+tinytex::install_tinytex()
 tinytex::tlmgr_install("pdfcrop")
-#I need to download ghostscript from https://ghostscript.com/download/gsdnld.html and then Go to Control Panel → System and Security → System → Advanced System Settings → computer name, domain and workgroup settings → Advanced → Environment Variables Find the Path variable within System Variables, select it and click on edit. Add C:\Program Files\gs\gs9.23\bin (or the directory where you installed ghostscript to) to the Path variable. In Windows 10, you can do this by clicking on New and entering the path.
+
 #Sys.setenv(R_GSCMD="C:/Users/gs/gs9.54.0/bin/gswin64.exe")
 ```
 
@@ -132,29 +134,32 @@ To gain an understanding of what EPs at different LAs understood consultation to
 
 ## 1.2 Context and rationale
 
-This project was greatly shaped by the coronavirus (COVID-19) pandemic and the subsequent response by the British Government. Because of this, the research was conducted during unprecedented circumstances. All EPs (and workers in general) had to work remotely from home. This presented unique concerns for how EPs worked, as they were not allowed to see any adults or CYP in person. Several documents, such as @bhardwajRapidLiteratureReview2020, and one piece of research [@aepSurveyEffectsCovid192020] were disseminated drain this time, detailing guidance as to how EPs can work ethically within the context of a lockdown. This included conducting consultations using either phones or video call software, such as Microsoft Teams or Zoom. There were concerns regarding the safety and privacy of Zoom technology [@paulZoomMalwareWhy2020] so Teams was encouraged by many EPS. This shifted the manner in which the research could be conducted: consultations could not be observed in person and many EPs were not engaging in consultation. The timeline of the research was changed as a result, with the observation of consultations pushed back to September 2020 when it was hoped they would resume by. There was also a broadening of the parameters of the research. Questions exploring the impact of the lockdown were posed to interviewees and a questionnaire was designed and disseminated to explore a wide range of views towards consultation and how it had been affected by the pandemic.
+This project was greatly shaped by the coronavirus (COVID-19) pandemic and the subsequent response by the British Government. Because of this, the research was conducted during unprecedented circumstances. All EPs (and workers in general) had to work remotely from home. This presented unique concerns for how EPs worked, as they were not allowed to see any adults or CYP in person. Several documents, such as @bhardwajRapidLiteratureReview2020, and one piece of research [@aepSurveyEffectsCovid192020] were disseminated drain this time, detailing guidance as to how EPs can work ethically within the context of a lockdown. This included conducting consultations using either phones or video call software, such as Microsoft Teams or Zoom. There were concerns regarding the safety and privacy of Zoom technology [@paulZoomMalwareWhy2020] so Teams was encouraged by many EPS. This shifted the manner in which the research could be conducted: consultations could not be observed in person and many EPs were not engaging in consultation. The timeline of the research was changed as a result, with the observation of consultations pushed back to September 2020 when it was hoped they would resume by. 
 
-The purpose of this research was it gain an insight into what happens during a joint school-family consultation, as well as which features correlate with rated changes towards agreed goals. Having a more fine-grained understanding of when different feature are seen and how frequently would provide valuable insight into what are the core feature of a consultation. This could then be cross-referenced with the ratings of progress as measured by TME. Because of the global pandemic, a related question was explored regarding the use of technology when conducting consultations. Gaining an understanding of what the core features of consultation is allows EPs to understand what is essential for a consultation to occur. This will inform the professions response to the lockdown, subsequent lockdowns, and EP work in general. EP beliefs regarding how consultation can be performed and their experiences changing their work can give guidance as to how EPs should use consultation in future, beyond the scope of the COVID-19 pandemic or any future pandemics.
+The purpose of this research was it gain an insight into what happens during an EP-led consultation, as well as which features are seen with rated changes towards agreed goals. Gaining an understanding of what EPs believe are the core features of consultation are allows EPs to understand what is essential for a consultation to occur. Having a more fine-grained understanding of when different feature are seen and how frequently would provide valuable insight into what are the core feature of a consultation. This could then be cross-referenced with the ratings of progress as measured by TME. The correspondence between observed features and progress is important because all EPS are expected to be able to demonstrate efficacy. This efficacy is generally conceived of as improvement for the CYP the EP is working with [@connorTargetMonitoringEvaluation2010]. It is therefore important that EPs can substantiate claims of efficacy for certain methods, such as consultation. This is why the present study seeks to draw a link between what features occur in consultations and are seen with rated progress. By understanding what the core features of consultation are and which features make it effective, this will inform the professions understanding of what is required for a consultation to occur and how to increase the chances of engaging in consultations which lead to positive outcomes for CYP. 
 
 ## 1.3 Research questions
 
 Given the lack of strong theory in this area of research, research questions were developed but statistical hypotheses could not be drawn. Thus, it is exploratory research [@kimmelmanDistinguishingExploratoryConfirmatory2014]. The research questions are:
 
-1.  What do EPs believe are the core features of a joint school-parent
-    consultation?
+1.  What do EPs believe are the core features of consultation?
 
-2.  Which features of consultation correlate with increased progress
+2.  Which features of consultation are seen with increased progress
     towards agreed goals?
 
 # 2 Methodology
 
 ## 2.1 Epistemology and research paradigm
 
-To explore these questions, a mixed methodology was employed, making use of quantitative and qualitative research methods. It was informed by a scientific realism epistemology. Scientific realism can help approach difficult problems in social science as it takes into account the complexity of the situation in which they occur [@houseRealismResearch1991]. It can be viewed as a pragmatic approach [@robsonRealWorldResearch2015] as it is less concerned with philosophical dualisms, such as rationalism versus empiricism, and more with practical considerations of issues and potential solutions [@johnsonMixedMethodsResearch2004a]. Mixed methodology aligns with a pragmatic approach as it is not beholden to one method of exploring a research topic; it sees the benefits of both for exploring a research question in different ways [@denscombeCommunitiesPracticeResearch2008]. Multiple methods of inquiry were employed because it is generally believed using different means to explore research questions brings greater rigour [@creswellResearchDesignQualitative2003a]. Data can be triangulated with one another, with evidence corroborating, refuting, or adding nuance to each other and increasing confidence in ones findings [@munafoRobustResearchNeeds2018]. Mixed methodology research designs can be divided along a key dimension: paradigm emphasis [@johnsonMixedMethodsResearch2004a]. This refers to whether one strand of the research (quantitative or qualitative) is given greater emphasis during analysis. Because equal weight was placed on both forms of inquiry, this was an 'equal weight' paradigm emphasis piece. An explicit account of the ways in which the qualitative and quantitative arms of the research relate to one another will be given [@denscombeCommunitiesPracticeResearch2008].
+To explore these questions, a mixed methodology was employed, making use of quantitative and qualitative research methods. It was informed by a scientific realism epistemology. Scientific realism can help approach difficult problems in social science as it takes into account the complexity of the situation in which they occur [@houseRealismResearch1991]. It can be viewed as a pragmatic approach [@robsonRealWorldResearch2015] as it is less concerned with philosophical dualisms, such as rationalism versus empiricism, and more with practical considerations of issues and potential solutions [@johnsonMixedMethodsResearch2004a]. Mixed methodology aligns with a pragmatic approach as it is not beholden to one method of exploring a research topic; it sees the benefits of both for exploring a research question in different ways [@denscombeCommunitiesPracticeResearch2008]. Multiple methods of inquiry were employed because it is generally believed using different means to explore research questions brings greater rigour [@creswellResearchDesignQualitative2003a]. Data can be triangulated with one another, with evidence corroborating, refuting, or adding nuance to each other and increasing confidence in ones findings [@munafoRobustResearchNeeds2018]. Mixed methodology research designs can be divided along a key dimension: paradigm emphasis [@johnsonMixedMethodsResearch2004a]. This refers to whether one strand of the research (quantitative or qualitative) is given greater emphasis during analysis. Because equal weight was placed on both forms of inquiry, this was an 'equal weight' paradigm emphasis piece. An explicit account of the ways in which the qualitative and quantitative arms of the research relate to one another will be given.
 
 ## 2.2 Participants
 
-Ethical approval was obtained from UCL the Institute of Education's Ethical Committee. The inclusion criteria for all three arms of the research was: an EP or TEP who used consultation as part of their practice. There were no requirements as to how frequently or recently it had to be used, nor experience or location. Nor were there requirements around the definition of consultation; just that EPs believed themselves to be engaging in consultation. This was to try and elicit a wide a range of views on consultations from practising EPs. For the interview and observation, participants were recruited via the researcher's EPS. Convenience sampling was therefore used. This was because participant recruitment for the observation was judged to be difficult and the researcher would have greater success by asking participants they already had a professional relationship with. The interview also recruited participants by sharing a call for participation on a popular mailing list for EPs and other education professionals (EPNET) and social media (Twitter). Participants were also asked to share the call for participants with other EPs at their work. This was the method used for recruiting participants to the questionnaire as well. Thus, a mixture of convenience and snowball sampling [@robsonRealWorldResearch2015] was employed for these two arms of the research.
+Ethical approval was obtained from UCL the Institute of Education's Ethical Committee. The inclusion criteria for both arms of the research was: an EP or TEP who used consultation as part of their practice. There were no requirements as to how frequently or recently it had to be used, nor experience or location. Nor were there requirements around the definition of consultation; just that EPs believed themselves to be engaging in consultation. This was to try and elicit a wide a range of views on consultations from practising EPs. For the interview and observation, participants were recruited via the researcher's EPS. Convenience sampling was therefore used. This was because participant recruitment for the observation was judged to be difficult and the researcher would have greater success by asking participants they already had a professional relationship with. The interview also recruited participants by sharing a call for participation on a popular mailing list for EPs and other education professionals (EPNET) and social media (Twitter). Participants were also asked to share the call for participants with other EPs at their work. Thus, a mixture of convenience and snowball sampling [@robsonRealWorldResearch2015] was employed for the two arms of the research.
+
+30 EPs of varying roles and locations were interviewed. Participant's roles included TEPs, maingrade EPs, specialist EPs, senior EPs, and Principal EPs. The participants worked in locations such as London, Yorkshire, Wales, and the Republic of Ireland.
+
+6 different consultations for 4 children were observed. These consultations were led by 2 EPs. 1 was a joint home-school consultation, 2 were consultations with one parent, 1 was a consultation with two parents, and 2 consultations involved the class teacher (see Appendix 1 for a full breakdown of which consultations involved which EPs and consultees and were for which children).
 
 ## 2.3 Materials
 
@@ -162,47 +167,21 @@ All materials, along with raw data, are released under a CC-BY license, thus all
 
 ### 2.3.1 Interviews
 
-A semi-structured interview format was used because an interview schedule was developed (Appendix 1) which served as a checklist of areas to be explored with a given question order and wording. However, the order and wording was allowed to change given the flow of the interview. Additional questions were used to further develop a interviewee's answer [@robsonRealWorldResearch2015]. Semi-structured interviews were chosen because the researcher conducted all the interviews and could thus explore answers in greater detail given their knowledge of the area. However, given this intimacy with the research questions and purpose of the study, there is a risk the researcher may ask leading questions to further a certain outcome. Thus, the core questions were agreed prior to the first interview to try and minimise bias. The interviews were of the focused type as the questions centred around the key theme of consultation [@mertonFocusedInterviewManual1990]. Probes (interview devices to elicit more information) were employed by the researcher to further develop the interviewee's responses. To achieve this, 'laddering questions' (questions phrased in a variety of ways asking for the interviewee to expand on their answer) and 'summarising techniques' (summarising what has just been said by the interviewee to prompt more information), as well as 'addition probes' to maintain the flow of the conversation [@zeiselInquiryDesignEnvironment2006]. The interview was piloted with a Trainee Educational Psychologist (TEP) to check for flow and whether the interviewees understood the questions. The TEP commented on the definition of "features" in question 5. The word was changed to "features" and a clarification statement developed to be provided in the interviewees, along with a definition if required. All interviews were recorded with an Honor 10 lite phone. The anonymous transcript was thematically analysed using the software NVivo 12.
+A semi-structured interview format was used because an interview schedule was developed (Appendix 1) which served as a checklist of areas to be explored with a given question order and wording. However, the order and wording was allowed to change given the flow of the interview. Additional questions were used to further develop a interviewee's answer [@robsonRealWorldResearch2015]. Semi-structured interviews were chosen because the researcher conducted all the interviews and could thus explore answers in greater detail given their knowledge of the area. However, given this intimacy with the research questions and purpose of the study, there is a risk the researcher may ask leading questions to further a certain outcome. Thus, the core questions were agreed prior to the first interview to try and minimise bias. The interviews were of the focused type as the questions centred around the key theme of consultation [@mertonFocusedInterviewManual1990]. Probes (interview devices to elicit more information) were employed by the researcher to further develop the interviewee's responses. To achieve this, 'laddering questions' (questions phrased in a variety of ways asking for the interviewee to expand on their answer) and 'summarising techniques' (summarising what has just been said by the interviewee to prompt more information), as well as 'addition probes' to maintain the flow of the conversation [@zeiselInquiryDesignEnvironment2006]. 
 
 ### 2.3.2 Observation
 
-The quantitative arm of the research involved systematic observations of consultations between an EP and either the parent, class teacher, or both. Thus, it was a naturalistic observation as the participants were observed in their typical environment without any interference from the researcher [@viglioccoTipofthetonguePsychology2001]. Observation was chosen as it helps overcome the often recorded discrepancy between what people say they do and how they behave in the real-world. This has been reported in such wide-ranging fields as smartphone use [@andrewsSelfReportToolsCompare2015a] to driving behaviours [@kayeComparisonSelfreportObjective2018]. Systematic observation was chosen because of the previous research identifying features of consultation. The researcher therefore judged that all the relevant observable features had been identified prior to data collection. These observable features were developed into a coding scheme (Appendix 2) to identify categories over the course of a set period of time. The categories were defined and operationalised prior to data collection [@crollSystematicClassroomObservation1986]. They were derived from the relevant literature and were mutually exclusive. The categories were limited to what was explicitly said because this would help reduce the amount of interpretation needed for behaviours such as non-verbal interactions. Models of consultation, such as Solution-focused and problem-analysis, were broken down into their constituent observable parts, such as exploring strengths and identifying exceptions. Event sampling was used as the absolute and relative frequency of events was of interest [@robsonRealWorldResearch2015]. A sequence record was also used to provide information as to the order in which the features were seen, thus providing information about transitions [@robsonRealWorldResearch2015]. Time sampling was not chosen so no events were missed because they fell outside of the time intervals. However, the length of time each feature occurred for was lost. Whilst this information would be valuable to see how long each feature lasted for, rather than just how frequently it occurred, it was decided that the risk of missing feature due to the researcher focusing on correctly marking the time of each feature outweighed the benefit of gaining that information.
+The quantitative arm of the research involved systematic observations of consultations between an EP and either the parent, class teacher, or both. Thus, it was a naturalistic observation as the participants were observed in their typical environment without any interference from the researcher [@viglioccoTipofthetonguePsychology2001]. Observation was chosen as it helps overcome the often recorded discrepancy between what people say they do and how they behave in the real-world. This has been reported in such wide-ranging fields as smartphone use [@andrewsSelfReportToolsCompare2015a] to driving behaviours [@kayeComparisonSelfreportObjective2018]. Systematic observation was chosen because of the previous research identifying features of consultation. The researcher therefore judged that all the relevant observable features had been identified prior to data collection. These observable features were developed into a coding scheme (Appendix XXX) to identify categories over the course of a set period of time. The categories were defined and operationalised prior to data collection [@crollSystematicClassroomObservation1986]. They were derived from the relevant literature and were mutually exclusive. The categories were limited to what was explicitly said because this would help reduce the amount of interpretation needed for behaviours such as non-verbal interactions. Models of consultation, such as Solution-focused and problem-analysis, were broken down into their constituent observable parts, such as exploring strengths and identifying exceptions. 
 
-To establish inter-rater reliability (IRR), an anonymous transcript of a previously recorded consultation was analysed for feature using the observation schedule. Three raters, including the researcher, assessed the transcript for feature of consultations in their relative order. Intraclass correlations [@shroutIntraclassCorrelationsUses1979] were calculated between the three raters. The relative frequency of each category was calculated for each rater and compared with one coder's (the researchers) results. Because frequency counts were used, intraclass correlations (ICC) were suitable as the data is continuous. To calculate ICC, four factors must be decided upon prior to calculation [@hallgrenComputingInterRaterReliability2012]. A two way model was used because the raters weren't randomly selected from the population. Given that a non-timed sequence record design was chosen for the observation schedule, good IRR was defined as consistency in the ratings because it was more important that raters provide scores that are similar in rank order. A single measures ICC was calculated because the reliability of the other two raters needed to generalise to ratings of one coder (the researcher). And finally, a mixed model was used because the raters were not randomly chosen from a population. This model was applied using the irr package [@gamerIrrVariousCoefficients2019] in R. This produced an ICC of 0.471 which, according to guidelines provided by @cicchettiGuidelinesCriteriaRules1994 are 'substantial'.
+Event sampling was used as the absolute and relative frequency of events was of interest [@robsonRealWorldResearch2015]. A sequence record was also used to provide information as to the order in which the features were seen, thus providing information about transitions [@robsonRealWorldResearch2015]. Time sampling was not chosen so no events were missed because they fell outside of the time intervals. However, the length of time each feature occurred for was lost. Whilst this information would be valuable to see how long each feature lasted for, rather than just how frequently it occurred, it was decided that the risk of missing feature due to the researcher focusing on correctly marking the time of each feature outweighed the benefit of gaining that information.
 
-The categories are defined and operationalised prior to data collection [@crollSystematicClassroomObservation1986]. They were derived from the relevant literature and were mutually exclusive. This was to increase the reliability as it reduces the chances of observations being coded differently according to the interpretation of an observer. To further reduce risks to reliability, the categories were limited to what was explicitly said. This was done to minimise the amount of inference the researcher had to use when deciding whether a category was observed [@crollSystematicClassroomObservation1986]. Models of consultation, such as Solution-focused, were broken down into their constituent observable parts, such as exploring strengths and identifying exceptions, so the categories were more fine-grained and which specific features of the models were used during consultations.
+The categories are defined and operationalised prior to data collection [@crollSystematicClassroomObservation1986]. They were derived from the relevant literature and were mutually exclusive. This was to increase the reliability as it reduces the chances of observations being coded differently according to the interpretation of an observer. To further reduce risks to reliability, the categories were limited to what was explicitly said. This was done to minimise the amount of inference the researcher had to use when deciding whether a category was observed [@crollSystematicClassroomObservation1986]. Models of consultation, such as Solution-focused, were broken down into their constituent observable parts, such as exploring strengths and identifying exceptions, so the categories were more fine-grained and which specific features of the models were used during consultations. 
 
-EPs were encouraged to engage in consultations via telephone or video call technology to increase the safety for all involved. This meant that the researcher could join the consultation and switch their camera off and mute themselves. Thus, they were less likely to have an impact on the consultation via their conspicuous presence, as may have happened if the researcher was physically present in the room. 
-
-To explore the relationship between the features and the change in the goals for each consultation, Qualitative Comparison Analysis (QCA) was used. It is characterised as a "small-N-many variables" approach. 
-
-
-
-
-
-
-
-Configurational Comparative Methods: Qualitative Comparative Analysis (QCA) and Related Techniques: "QCA techniques allow the systematic comparison of cases, with the help of formal tools and with a specific conception of cases."
-
-"In the process of configurational comparative analysis, the researcher engages in a dialogue between cases and relevant theories. Indeed, the choice of the variables (conditions and outcome) for the analysis must be theoretically informed. In this sense, there is a deductive aspect to QCA; however, QCA techniques can also be used more inductively, gaining insights from case knowledge in order to identify the key "ingredients" to be considered (Rihoux, 2003, 2006; Rihoux & Lobe, 2009)." 
-
-@rihouxCaseQualitativeComparative2009
-
-"QCA techniques allow for "conjunctural causation" across observed cases. This means that different constellations of factors may lead to the same result (equifinality)"
-
-"By using QCA, the researcher is urged not to specify a single causal model that best fits the data, as one usually does with statistical techniques, but instead to determine the number and character of the different causal models that exist among comparable cases (Ragin, 1987)."
-
-for the statistical programming language R [@rcoreteamLanguageEnvironmentStatistical2017]
-
-<https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1089061/pdf/hsresearch00022-0148.pdf>: "to assess the sufficiency of a combination of causal conditions, the researcher selects cases with a given combination of conditions and then evaluates whether or not these cases display the same, or roughly the same, outcome."
-
-### 2.3.3 Questionnaire
-
-A questionnaire was designed using Qualtrics to explore consultation as conducted both during the lockdown and prior to it. The questions were informed by the answers to the interview questions, as recommended by [@gehlbachMeasureTwiceCut2011]. Due to the fact the way answer options are presented can bias results [@schwarzSelfreportsHowQuestions1999], the construction of the question and answers was guided by the best practice recommendations from @gehlbachMeasureTwiceCut2011. Quantitative questions explored what the key features of consultation are (both before and during the lockdown), what kinds of work EPs engaged in (before and during the lockdown), how they have found the changes to their work (with Likert scale ratings), and how much different types of work have been affected by the lockdown. Questions suggesting different features of consultation were based on the scientific literature, for example @dennisFarGoodQualitative2004; @dickinsonConsultationAssuringQuality2000a; @farrellDevelopingInclusivePractices2006; @hendersonExplorationImpactConsultation2013; @kennedyEducationalPsychologistsWalk2008; @munroAnglesDevelopingConsultation2000; & @nolanProcessPsychologicalConsultation2014, and the material on the Local Offer websites. These were the same features used in the observation schedule. Open-ended questions will be used to explore the changes to EP consultations as a result of the lockdown and their views towards technologically mediated consultations. This is because there is no published literature to suggest what EPs may experience, given the unprecedented nature of the present circumstances. It is therefore best to give participants the opportunity to respond how they wish, without a narrowing of options by the questionnaire.
+A TME form (Appendix XXX)
 
 ## 2.4 Procedure
 
-Prior to data collection, it was decided the quantitative arm would be conducted first, starting in March 2020 and continuing until March 2021. Interviews would be conducted in the autumn of 2020. Thus, a concurrent triangulation design would be employed [@creswellResearchDesignQualitative2003a]. Both the quantitative and qualitative arms of the research would be conducted simultaneously and independently. The results were to be compared to see whether the conclusions drawn align with one another. This was done for practical rather than philosophically informed reasons. It was agreed beforehand that collecting observation data would be more difficult, as finding consultations with all the required participants who were also willing to be observed is unlikely. Consultations with both the teacher and parent present are less likely to occur than consultations with just one of them, given the specific multiplication rule of probability [@grinsteadIntroductionProbability1997]. It was therefore felt that having a longer window of opportunity to collect data was the reasonable course of action. 
+Prior to data collection, it was decided the quantitative arm would be conducted first, starting in March 2020 and continuing until March 2021. Interviews would be conducted in the autumn of 2020. Thus, a concurrent triangulation design would be employed [@creswellResearchDesignQualitative2003a]. Both the quantitative and qualitative arms of the research would be conducted simultaneously and independently. The results were to be compared to see whether the conclusions drawn align with one another. This was done for practical rather than philosophically informed reasons. It was agreed beforehand that collecting observation data would be more difficult, as finding consultations with all the required participants who were also willing to be observed is unlikely. It was therefore felt that having a longer window of opportunity to collect data was the reasonable course of action. 
 
 However, due to the COVID-19 pandemic all in person consultations were cancelled across the U.K. to comply with the government-mandated lockdown [@cabinetofficeStayingHomeAway2020]. Whilst many EPs offered consultations to their respective schools, most found they delivered far fewer consultations during the lockdown than usual. Those who delivered consultations typically did so via the phone, eliminating any chance of observation by the researcher. In response, data collection for the interviews was brought forward to start in March 2020 and observations of consultations would occur once consultations could be observed by the researcher. The research was therefore adapted to use a sequential transformative design [@creswellResearchDesignQualitative2003a]. This type of mixed methodology involves one method preceding the other. Either the qualitative or the quantitative arm of the research project is conducted first. The methodology does not require one be used before the other, so practical reasons may determine the order of research. The results from both strands are interpreted together, with one informing the other.
 
@@ -210,35 +189,69 @@ However, due to the COVID-19 pandemic all in person consultations were cancelled
 
 Interviews were originally planned to be in person with EPs in the researcher's EPS. However, because of the global pandemic, all non-essential in person meetings were banned. They were therefore switched to video or phone call interviews. Because of the sudden increase in proficiency and willingness of many EPs to use phone and video call technology, the parameters of the participant recruitment for the interviews was widened to all EPs. This decision was made because of a desire to increase the number of participants and thus the range of views on consultation.
 
-Semi-structured focused interviews were used to elicit EP views with regards to the core features of consultation, the barriers to effective consultation, how their consultation work has changed in response to the lockdown, and the advantages and disadvantages of this new way of working. 30 EPs were interviewed using a mixture of phone and video call technology. Data collection took place between 31/03/2020 and 28/05/2020. All interviews were recorded and an anonymous transcript made. These transcripts were thematically analysed, which involves the identification of themes through "careful reading and re-reading of the data" [@riceQualitativeResearchMethods1999]. A mixed or hybrid thematic analysis approach [@feredayDemonstratingRigorUsing2006] was employed. This incorporates inductive and deductive thematic analysis. Inductive thematic analysis is driven primarily by the data [@boyatzisTransformingQualitativeInformation1998a] and deductive thematic analysis is theory-driven with codes derived from said theory [@crabtreeTemplateApproachText1992]. The a priori codes identified were developed from the scientific and Local Offer literature. Semantic themes (that which is explicitly said) were found and analysed [@boyatzisTransformingQualitativeInformation1998a].
+Semi-structured focused interviews were used to elicit EP views with regards to the core features of consultation, the barriers to effective consultation, how their consultation work has changed in response to the lockdown, and the advantages and disadvantages of this new way of working. Participants were interviewed using a mixture of phone and video call technology. Data collection took place between 31/03/2020 and 28/05/2020. All interviews were recorded with an Honor 10 lite phone and an anonymous transcript made. 
 
 ### 2.4.2 Observation
 
-After gaining informed consent from all participants, the researcher observed the consultation unfold as normal. The researcher will use the observation schedule to mark when and how frequently different features occur. These will then be summed. Immediately after the conclusion of the consultation, each participant (EP, school staff member, and parent/guardian) was asked to collectively identify 2-3 goals for the CYP to work towards. This was done using a TME form. Participants rated, on a scale of 1-10, where the CYP currently was towards that goal (by writing the letter 'B' for 'baseline' next to the number) and where they expected them to be in 6-8 weeks (by writing the letter 'E' by the number). In 6-8 weeks time, participants would be contacted by the researcher via email to rate how far along the CYP had progressed towards that goal. This judgement was represented by the letter 'A' (for 'actual') along the same rating scale. This data will be summarised with the median ratings for each category ('baseline', 'expected', and 'actual') presented. The summed features would be tallied against the progress made for each observed consultation. This will be calculated by subtracting the 'baseline' rank from the 'actual' as research suggests most TME forms report a positive change as a result of the consultation [@dunsmuirEvidenceBasedPractice2009; @monsenEvaluationPreTraining2009]. Whilst the independent variable of frequency counts of features is continuous, the dependent variable of the reported progress is ordinal. Therefore, a Spearman rank-order correlation will be used [@fieldDiscoveringStatisticsUsing2012] to measure the correlation between features of consultation and reported change in outcomes for the CYP.
+Observations were conducted between 20/11/2020 and 14/01/2021. After gaining informed consent from all participants, the researcher observed the consultation unfold as normal. The researcher used the observation schedule to mark when and how frequently different features occurred. These were then summed. Immediately after the conclusion of the consultation, the participants (EP, school class teacher, and/or parent) were asked to collectively identify 1-3 goals for the CYP to work towards. This was done using a TME form. Participants rated, on a scale of 1-10, where the CYP currently was towards that goal (by writing the letter 'B' for 'baseline' next to the number) and where they expected them to be in 6-8 weeks (by writing the letter 'E' by the number). In 6-8 weeks time, participants would be contacted by the researcher via email to rate how far along the CYP had progressed towards that goal. This judgement was represented by the letter 'A' (for 'actual') along the same rating scale. 
 
-### 2.4.3 Questionnaire
+## 2.5 Piloting methods
 
-A questionnaire was designed to supplement the findings from the interviews. By identifying key ideas from the interview answers, these could be explored with a larger sample by using a questionnaire. Data collection took place between 26/05/2020 and 04/06/2020. Descriptive statistics of the types of features employed during consultations will be reported, along with how much of an impact the lockdown has had on different kinds of work and the changes made to work during the pandemic. The open text questions exploring participant views towards the use of technology when conducting consultations and how their work has been impacted by the lockdown were thematically analysed. Inductive thematic analysis was used to explore the semantic themes [@boyatzisTransformingQualitativeInformation1998a]. Inductive analysis is data driven and thus codes are derived from the data, rather than pre-determined codes being used to analyse the data [@guestAppliedThematicAnalysis2012]. The question assessing how much each type of work has been affected will be plotted to check the distribution of responses. Likert rating scales produce ordinal data an the responses are unlikely to be normally distributed, therefore models which assume normally distributed continuous data are inappropriate [@liddellAnalyzingOrdinalData2017]. It will therefore be analysed using a cumulative probit ordinal regression model [@burknerOrdinalRegressionModels2019] to see if there differences between types of work as well as groups, such as role. A probit model will be used as the latent variable which the question is seeking to measure (how greatly various kinds of work have been affected by the lockdown) is assumed to be normally distributed [@mccullaghRegressionModelsOrdinal1980].
-
-To see whether the lockdown has affected the prevalence of different features of consultation, a two-way within subjects ANOVA will be used. This is suitable because the data is proportional [@mangiaficoSummaryAnalysisExtension2016]. The features will be clustered into subgroups: Solution-Focused, Problem analysis, Organisation and knowledge; and Valuing everyone (see Appendix 3 for a breakdown of the features into the subgroups). The subgroups will be analysed independently with the other factor (time) common to all subgroup analyses. Time will have two levels (before and during lockdown). Responses which did not include any data for questions relating to the features of consultation or how their work had been impacted by the pandemic were excluded.
-
-## 2.5 Reflections on pilot
+To ensure rigour in the methodologies employed, each methodology was piloted prior to data collection. This was to check that the interview questions were understandable and suitable and that the observation schedule categories were discrete and easily interpretable. 
 
 ### 2.5.1 Interview schedule
 
-
+The interview was piloted with a Trainee Educational Psychologist (TEP) to check for flow and whether the interviewees understood the questions. The TEP commented on the definition of "features" in question 5. The word was changed to "features" and a clarification statement developed to be provided in the interviewees, along with a definition if required. 
 
 ### 2.5.2 Observation schedule
 
+To establish inter-rater reliability (IRR), an anonymous transcript of a previously recorded consultation was analysed for feature using the observation schedule. Three raters, including the researcher, assessed the transcript for feature of consultations in their relative order. Intraclass correlations [@shroutIntraclassCorrelationsUses1979] were calculated between the three raters. The relative frequency of each category was calculated for each rater and compared with one coder's (the researchers) results. Because frequency counts were used, intraclass correlations (ICC) were suitable as the data is continuous. To calculate ICC, four factors must be decided upon prior to calculation [@hallgrenComputingInterRaterReliability2012]. A two way model was used because the raters weren't randomly selected from the population. Given that a non-timed sequence record design was chosen for the observation schedule, good IRR was defined as consistency in the ratings because it was more important that raters provide scores that are similar in rank order. A single measures ICC was calculated because the reliability of the other two raters needed to generalise to ratings of one coder (the researcher). And finally, a mixed model was used because the raters were not randomly chosen from a population. This model was applied using the irr package [@gamerIrrVariousCoefficients2019] in the statistical programming language R [@rcoreteamLanguageEnvironmentStatistical2017]. This produced an ICC of 0.471 which, according to guidelines provided by @cicchettiGuidelinesCriteriaRules1994 are 'fair'.
+
+## 2.6 Data analysis
+
+### 2.6.1 Interviews
+
+The anonymous transcripts were thematically analysed using the software NVivo 12, a qualitative data analysis tool. This was done through uploading the transcripts as text documents into the software. @braunUsingThematicAnalysis2006 identify 5 stages to the process of thematic analysis: familiarizing yourself with your data; generating initial codes; searching for themes; reviewing themes; and defining and naming themes. Codes were instances of features of consultation discussed by the participants as this was the first step in 'data reduction' [@milesQualitativeDataAnalysis1994] by organising it into meaningful groups [@tuckettApplyingThematicAnalysis2005]. In NVivo, utterances by the participants were highlighted and a deductive code was selected, an inductive code was generated, or an inductive code was selected. The second stage was repeated three times to both check the accuracy of codes and split previously identified codes into discrete and more fine grained codes. This iterative process forms a key part of thematic analysis [@riceQualitativeResearchMethods1999]. 
+
+A mixed or hybrid thematic analysis approach [@feredayDemonstratingRigorUsing2006] was employed. This incorporates inductive and deductive thematic analysis. Inductive thematic analysis is driven primarily by the data [@boyatzisTransformingQualitativeInformation1998a] and deductive thematic analysis is theory-driven with codes derived from said theory [@crabtreeTemplateApproachText1992]. The a priori codes identified were developed from the scientific and Local Offer literature. A thematic map of codes was created using TikZiT, an open source project for creating diagrams [@kissingerTikZiT2019]. This was to visually represent all the codes and aid in the generation of themes. @boyatzisTransformingQualitativeInformation1998a defines a theme as a pattern contained within one's data which summarises the observations through description. This helps to interpret the explored phenomenon.  Semantic themes (that which is explicitly said) were found and analysed [@boyatzisTransformingQualitativeInformation1998a] with interpretation of their significance and implications [@pattonQualitativeEvaluationResearch1990a]. 
+
+Thematic analysis was chosen because it is flexible since it is not bound to a phenomenological epistemology, such as methods like Interpretative Phenomenological Analysis [@smithInterpretativePhenomenologicalAnalysis2003]. Nor does it limit one to only inductive code theme development and therefore the ignoring of previously identified theory, such as Grounded theory [@straussGroundedTheoryMethodology1994]. It is also described by @braunUsingThematicAnalysis2006 as being "accessible" to those with less experience in qualitative methods. Semantic themes were chosen because the focus of this research is on the features of consultation and how they relate to effecting change for the CYP the consultations are about. Therefore, an analysis of the "underlying ideas, assumptions, and conceptualizations, and ideologies" [@braunUsingThematicAnalysis2006] was not deemed an appropriate level of analysis.
+
+### 2.6.2 Observations
+
+The number of features across each consultation will be summed. The data from the TME forms for all goals will be collected and a value of 'change' will be calculated for each consultation. This will be done by subtracting the 'baseline' rank from the 'actual' as research suggests most TME forms report a positive change as a result of the consultation [@dunsmuirEvidenceBasedPractice2009; @monsenEvaluationPreTraining2009]. To explore the relationship between the presence of features and reported change, Qualitative Comparison Analysis (QCA) was used, with the QCA package for R [@dusaQCAComprehensiveResource2018]. QCA allows the comparison of cases with the "help of formal tools and with a specific conception of cases" [@rihouxCaseQualitativeComparative2009]. Each consultation forms a QCA case, the features of consultation form the conditions, and the difference between 'baseline' and 'actual' is the outcome. QCA involves the analysis of the frequency of different theoretically derived features to explore which combination of conditions (both presence and absence) led to a measured outcome variable (change in outcomes for the CYP on the TME scale). 
+
+QCA is based on Boolean algebra and set theory. Conditions are identified and can either be 'present' or 'absent' and sets are formed based on combinations of these conditions being present or absent. Boolean minimisation is the reduction of complex expressions of conditions which produce the same outcome to simpler expressions.
+
+QCA is characterised as a "small-N-many variables" approach [@lijphartIIComparableCasesStrategy1975] because it is used when there are a small number of cases but a large number of potential causal variables. This makes it suitable to analyse the potential causal features in relation to change because there are a small number of observed consultations but a large number of variables (features). QCA also does not require the researcher to specify a single causal model, as is typical with most statistical techniques. Rather, it allows the identification of "the number and character of the different causal models that exist among comparable cases" [@raginComparativeMethodMoving1987]. QCA also allows for "conjunctural causation" [@rihouxCaseQualitativeComparative2009] as different combinations of factors can produce the same result (equifinality)
+
+Crisp-set QCA [@raginComparativeMethodMoving1987] was used as the features were mutually exclusive and bivalent; they were classed as either 'present' or 'absent'. The total number of observations of each condition for each case will then be calculated. To construct a truth table where the conditions are either classed as 'present' or 'absent' for each case, the data must be calibrated [@dusaQCAComprehensiveResource2018]. Hierarchical cluster analysis will be used to calculate the threshold to determine whether a condition will be classed as 'present' or 'absent'. 
 
 
-### 2.5.3 Questionnaire
 
-14 TEPs piloted the questionnaire. They identified a few questions which could be misinterpreted ("What will you do differently when things go back to normal") and questions which would benefit from an explanation as to how the answering mechanic worked. They also identified additional types of work EPs could engage in during the lockdown. Overall the feedback was positive, with particular focus on the breadth of questions and the inclusion of changes to practice during the current lockdown. One TEP reported that questions 17 and 18 could be interpreted in different ways: do EPs think they should change their consultations compared with how they were conducted prior to the lockdown or how they are done now? Because the focus of the question is about what they will do differently as a result of their experiences, the question was changed to reflect this. A comment was raised about the order of the options when selecting the magnitude of the impact on different kinds of work due to the lockdown. It was decided it would be in ascending order as this makes more intuitive sense when reading from left to right.
+NOT REALLY SURE IF THIS IS RELEVANT
+"In the process of configurational comparative analysis, the researcher engages in a dialogue between cases and relevant theories. Indeed, the choice of the variables (conditions and outcome) for the analysis must be theoretically informed. In this sense, there is a deductive aspect to QCA; however, QCA techniques can also be used more inductively, gaining insights from case knowledge in order to identify the key "ingredients" to be considered (Rihoux, 2003, 2006; Rihoux & Lobe, 2009)." 
+
+
+
+
+
+
+<https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1089061/pdf/hsresearch00022-0148.pdf>: "to assess the sufficiency of a combination of causal conditions, the researcher selects cases with a given combination of conditions and then evaluates whether or not these cases display the same, or roughly the same, outcome."
+
+NOT SURE WHERE TO TALK ABOUT THE LIMITATIONS OF TME AT THE MOMENT
+Talk about limitations of TME here and what conclusions I can draw.
+
+
 
 # 3 Results
 
-NEED INTRODUCTION TO SECTION
+The subsequent chapter summarises the results from the two arms of the thesis. The layout will follow the structure of the research questions, with the interview data presented first to explore what interviewees believe are the effective features of consultation. The observation data will then be presented to gain an understanding of what features seen in consultations correspond to change in 
+
+
+
+The following chapter provides a summary of the quantitative data. In a format as laid out by the research questions, the data is presented in order to explore, firstly, TME as a means of assessing the objective impact for children of interventions for EPs across the service. This results section also presents the outcomes for the same children when a more established form of evaluation is used (the YARC) and how this compares and contrasts with the TME outcomes. 
+
 
 ```{=tex}
 \newpage
@@ -251,7 +264,7 @@ map](D:/Doctorate/Assessments/Y3/Thesis/Results/Interview_transcripts/Figures/Th
 
 ## 3.1 Interviews
 
-30 EPs of varying roles and locations were interviewed. Participant's roles included TEPs, maingrade EPs, specialist EPs, senior EPs, and Principal EPs. The participants worked in locations such as London, Yorkshire, Wales, and the Republic of Ireland. Thematic analysis identified 32 inductive codes, as well as the 15 deductive codes previously set, relating to what features EPs believed were effective for consultation. 6 codes were identified for what made said features effective (see Appendix XXX for the definitions of the inductive codes, Appendix XXX for the definitions of the codes relating to what makes the features effective and Appendix XXX for the breakdown of the number of interviews which each code was identified in and the total number of codes for each feature). These were combined to create 8 themes: Buy-in, Conditions, Context, Strengths-based, Shared understanding, Intervention, Future facing, and EP skills and knowledge. These could then be combined to create two super themes: Internal factors (features relating to t External factors (features relating to things happening around a consultation).
+Thematic analysis identified 32 inductive codes, as well as the 15 deductive codes previously set, relating to what features EPs believed were effective for consultation. 6 codes were identified for what made said features effective (see Appendix XXX for the definitions of the inductive codes, Appendix XXX for the definitions of the codes relating to what makes the features effective and Appendix XXX for the breakdown of the number of interviews which each code was identified in and the total number of codes for each feature). These were combined to create 8 themes: Buy-in, Conditions, Context, Strengths-based, Shared understanding, Intervention, Future facing, and EP skills and knowledge. These could then be combined to create two super themes: Internal factors (features relating to the factors endemic to a consultation) and External factors (features relating to things happening around a consultation).
 
 ### 3.1.1 Buy-in
 
@@ -945,64 +958,112 @@ we would be applying the same psychologies, the same frameworks.
 No pair-wise simplifications could be made as there were no
 consultations which saw change which differed by only 1 feature.
 
-```{r Thematic map, echo = FALSE, eval = FALSE}
-#This makes a graph of one theme but it doesn't look great (all the codes down below it) and I haven't given it any colour yet (need to work out how)
-grViz("
-digraph a_nice_graph {
+```{r Observation features, echo = FALSE, include = FALSE}
+install.packages("openxlsx", repo="http://cran.rstudio.com/")
+library(openxlsx)
+install.packages("tidyverse", repo="http://cran.rstudio.com/")
+library(tidyverse)
+first_obv     <- read.xlsx("D:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\20.11.20\\20.11.20 observation results.xlsx")
+second_obv_p  <- read.xlsx("D:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\20.12.04\\20.12.04 observation results parent.xlsx")
+second_obv_t  <- read.xlsx("D:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\20.12.04\\20.12.04 observation results teacher.xlsx")
+third_obv_p   <- read.xlsx("D:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\20.12.16\\20.12.16 Observation results parent.xlsx")
+fourth_obv_p  <- read.xlsx("D:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\21.01.14\\Family observation schedule.xlsx")
+fourth_obv_t  <- read.xlsx("D:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\21.01.14\\Teacher observation schedule.xlsx")
+#Data tidying
+#Remove Total row at the end
+first_obv <- select(first_obv, 1:107)
+second_obv_t <- select(second_obv_t, 1:169)
+second_obv_p <- select(second_obv_p, 1:57)
+third_obv_p <- select(third_obv_p, 1:104)
+fourth_obv_t <- select(fourth_obv_t, 1:93)
+fourth_obv_p <- select(fourth_obv_p, 1:84)
+#Convert first column to row names//// I don't want to do this just yet because I want to transpose the data to vertical but I want to keep the feature column as a name so I can do stuff with it.
+#first_obv <- first_obv %>% remove_rownames %>% column_to_rownames(var="Features")
+#Convert NAs to 0.
+first_obv <- mutate_all(first_obv, ~replace(., is.na(.), 0))
+second_obv_t <- mutate_all(second_obv_t, ~replace(., is.na(.), 0))
+second_obv_p <- mutate_all(second_obv_p, ~replace(., is.na(.), 0))
+third_obv_p  <- mutate_all(third_obv_p, ~replace(., is.na(.), 0))
+fourth_obv_t <- mutate_all(fourth_obv_t, ~replace(., is.na(.), 0))
+fourth_obv_p <- mutate_all(fourth_obv_p, ~replace(., is.na(.), 0))
+#Transpose the data to normal
+# first remember the names
+n <- first_obv$Features
+# transpose all but the first column (name)
+first_obv <- as.data.frame(t(first_obv[,-1]))
+colnames(first_obv) <- n
+first_obv$myfactor <- factor(row.names(first_obv))
 
-# node definitions with substituted label text
-node [fontname = Helvetica]
-a [label = '@@1']
-b [label = '@@2']
-c [label = '@@3']
-d [label = '@@4']
-e [label = '@@5']
+second_obv_t <- as.data.frame(t(second_obv_t[,-1]))
+colnames(second_obv_t) <- n
+second_obv_t$myfactor <- factor(row.names(second_obv_t))
 
-# edge definitions with the node IDs
-a -> {b c d e}
-}
+second_obv_p <- as.data.frame(t(second_obv_p[,-1]))
+colnames(second_obv_p) <- n
+second_obv_p$myfactor <- factor(row.names(second_obv_p))
 
-[1]: 'Forward facing'
-[2]: 'Goal setting'
-[3]: 'Preventative'
-[4]: 'Way forward'
-[5]: 'Ideas for future EP work'
-")
+third_obv_p <- as.data.frame(t(third_obv_p[,-1]))
+colnames(third_obv_p) <- n
+third_obv_p$myfactor <- factor(row.names(third_obv_p))
 
-grViz("
-digraph neato {
+fourth_obv_t <- as.data.frame(t(fourth_obv_t[,-1]))
+colnames(fourth_obv_t) <- n
+fourth_obv_t$myfactor <- factor(row.names(fourth_obv_t))
 
-graph [layout = neato]
+fourth_obv_p <- as.data.frame(t(fourth_obv_p[,-1]))
+colnames(fourth_obv_p) <- n
+fourth_obv_p$myfactor <- factor(row.names(fourth_obv_p))
 
-node [shape = circle,
-      style = filled,
-      color = grey,
-      label = '']
+#Feature sum for first consultation in its own data frame
+first_obv_sums <- first_obv %>%
+  bind_rows(summarise_all(., ~if(is.numeric(.)) sum(.) else "Total"))
+first_obv_sums <- first_obv_sums[107,1:14]
+row.names(first_obv_sums) <- "1st consultation"
 
-node [fillcolor = green]
-a
+second_obv_t_sums <- second_obv_t %>%
+  bind_rows(summarise_all(., ~if(is.numeric(.)) sum(.) else "Total"))
+second_obv_t_sums <- second_obv_t_sums[169,1:14]
+row.names(second_obv_t_sums) <- "2nd consultation (teacher)"
 
-node [fillcolor = orange]
-b c d e 
+second_obv_p_sums <- second_obv_p %>%
+  bind_rows(summarise_all(., ~if(is.numeric(.)) sum(.) else "Total"))
+second_obv_p_sums <- second_obv_p_sums[57,1:14]
+row.names(second_obv_p_sums) <- "2nd consultation (parent)"
 
-edge [color = grey]
-a -> {b c d e}
+third_obv_sums <- third_obv_p %>%
+  bind_rows(summarise_all(., ~if(is.numeric(.)) sum(.) else "Total"))
+third_obv_sums <- third_obv_sums[104,1:14]
+row.names(third_obv_sums) <- "3rd consultation (parent)"
 
-#I can't just add the code from above which gives labels to the vector names from above.
-#node [fontname = Helvetica]
-#a [label = '@@1']
-#b [label = '@@2']
-#c [label = '@@3']
-#d [label = '@@4']
-#e [label = '@@5']
-#
-#[1]: 'Forward facing'
-#[2]: 'Goal setting'
-#[3]: 'Preventative'
-#[4]: 'Way forward'
-#[5]: 'Ideas for future EP work'
+fourth_obv_t_sums <- fourth_obv_t %>%
+  bind_rows(summarise_all(., ~if(is.numeric(.)) sum(.) else "Total"))
+fourth_obv_t_sums <- fourth_obv_t_sums[93,1:14]
+row.names(fourth_obv_t_sums) <- "4th consultation (teacher)"
 
-}")
+fourth_obv_p_sums <- fourth_obv_p %>%
+  bind_rows(summarise_all(., ~if(is.numeric(.)) sum(.) else "Total"))
+fourth_obv_p_sums <- fourth_obv_p_sums[84,1:14]
+row.names(fourth_obv_p_sums) <- "4th consultation (parent)"
+
+#Merge the data frames together into 1 table
+all_obs_sums <- rbind(first_obv_sums, second_obv_t_sums, second_obv_p_sums, third_obv_sums, fourth_obv_t_sums, fourth_obv_p_sums)
+kable(all_obs_sums)
+```
+
+```{r TME results, echo = FALSE, results='asis'}
+total_TME <- data.frame(EP = c(1,1,1,2,2,2,2,2,2,2),
+                        Adult = c(1,1,2,1,2,2,2,2,1,2), 
+                        Child = c(1,1,1,2,2,2,2,3,4,4),
+                        Goal = c(1.1,1.2,1.1,2.1,2.2,2.3,2.1,3.1,4.1,4.2), 
+                        Baseline = c(3,3,3,3,5,3,5,3,2,3), 
+                        Expected = c(6,5,5,7,8,5,8,4,4,5), 
+                        Actual =   c(4,4,3,3,7,4,6,3,3,4), 
+                        Change =   c(1,1,0,0,2,1,1,0,1,1))
+#total_TME$Child <- factor(total_TME$EP, levels = c("1","2","3","4"), labels = c("1", "2","3","4"))
+total_TME$EP <- factor(total_TME$EP, levels = c("1","2"), labels = c("1", "2"))
+total_TME$Adult <- factor(total_TME$Adult, levels = c("1","2"), labels = c("Teacher", "Parent"))
+total_TME$Goal <- factor(total_TME$Goal, levels = c(1.1,1.2,2.1,2.1,2.2,2.3,3.1,4.1,4.2), labels = c("Maths problems up to 10", "Accept play requests", "Not pausing when naming emotions", "Joining sounds up and reading unfamiliar words", "Using phoneme knowledge for unfamiliar words", "Maintaining a conversation", "Learning self-esteem", "Learning self-esteem", "Managing frustration when instructed"))
+kable(total_TME)
 ```
 
 # Discussion
@@ -1013,9 +1074,24 @@ explore their thoughts.
 
 There was a large disparity between the number of inductive and deductive codes and the number of instances of each code, with the inductive codes being recorded more frequently than deductive codes. This suggests that the current literature does not accurately reflect how EPs are using consultation in practice.
 
+Observations were almost exclusively from one EP.
+
+No measures were taken to ensure the reliability of the thematic analysis, such as using inter-rater reliability.
+
 # Appendices
 
 ## Appendix 1
+
+|Consultation number|Child|EP|Consultees        |
+|-------------------|-----|--|------------------|
+|1                  |1    |1 |Mother and teacher|
+|2                  |2    |2 |Father            |
+|3                  |2    |2 |Teacher           |
+|4                  |3    |2 |Mother            |
+|5                  |4    |2 |Teacher           |
+|6                  |4    |2 |Father and father |
+
+## Appendix 2
 
 1)  What is your role?
 2)  How do you define consultation? What does it mean to you?
@@ -1043,7 +1119,7 @@ There was a large disparity between the number of inductive and deductive codes 
 19) Will you do anything differently after this is over?
 20) Should the service/EPs as a whole do things differently?
 
-## Appendix 2
+## Appendix 3
 
 +---------------------------------+------------------------------------+
 | Category                        | Definition                         |
@@ -1123,7 +1199,7 @@ There was a large disparity between the number of inductive and deductive codes 
 |                                 | school works.                      |
 +---------------------------------+------------------------------------+
 
-## Appendix 3
+## Appendix 4
 
 +------------------------+---------------------------------------------+
 | Level                  | Feature                                     |
@@ -1144,7 +1220,7 @@ There was a large disparity between the number of inductive and deductive codes 
 |                        | involved                                    |
 +------------------------+---------------------------------------------+
 
-## Appendix 4
+## Appendix 5
 
 +------------------------+---------------------------------------------+
 | Code                   | Definition                                  |
@@ -1261,7 +1337,7 @@ There was a large disparity between the number of inductive and deductive codes 
 |                        | process of consultation.                    |
 +------------------------+---------------------------------------------+
 
-## Appendix 5
+## Appendix 6
 
 +------------------------+---------------------------------------------+
 | Code                   | Definition                                  |
@@ -1291,7 +1367,7 @@ There was a large disparity between the number of inductive and deductive codes 
 | approach               | vehicle to support CYP.                     |
 +------------------------+---------------------------------------------+
 
-## Appendix 6
+## Appendix 7
 
 | Code                              | File n | Total code n |
 |-----------------------------------|--------|--------------|

@@ -7,12 +7,12 @@ library(tidyverse)
 install.packages("QCA", dependencies = TRUE)
 library(QCA)
 #Read in the data frame of the results
-first_obv <- read.xlsx("F:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\20.11.20\\20.11.20 observation results.xlsx")
-second_obv_p <- read.xlsx("F:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\20.12.04\\20.12.04 observation results parent.xlsx")
-second_obv_t <- read.xlsx("F:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\20.12.04\\20.12.04 observation results teacher.xlsx")
-third_obv_p <- read.xlsx("F:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\20.12.16\\20.12.16 Observation results parent.xlsx")
-fourth_obv_p <- read.xlsx("F:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\21.01.14\\Family observation schedule.xlsx")
-fourth_obv_t <- read.xlsx("F:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\21.01.14\\Teacher observation schedule.xlsx")
+first_obv     <- read.xlsx("D:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\20.11.20\\20.11.20 observation results.xlsx")
+second_obv_p  <- read.xlsx("D:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\20.12.04\\20.12.04 observation results parent.xlsx")
+second_obv_t  <- read.xlsx("D:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\20.12.04\\20.12.04 observation results teacher.xlsx")
+third_obv_p   <- read.xlsx("D:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\20.12.16\\20.12.16 Observation results parent.xlsx")
+fourth_obv_p  <- read.xlsx("D:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\21.01.14\\Family observation schedule.xlsx")
+fourth_obv_t  <- read.xlsx("D:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\21.01.14\\Teacher observation schedule.xlsx")
 #Data tidying
 #Remove Total row at the end
 first_obv <- select(first_obv, 1:107)
@@ -70,12 +70,16 @@ first_obv_TME$Adult <- factor(first_obv_TME$Adult, levels = c("1","2"), labels =
 first_obv_TME$Goal <- factor(first_obv_TME$Goal, levels = c(1.1,1.2,2.1,2.2,2.3,3.1,4.1,4.2), labels = c("Maths problems up to 10", "Accept play requests", "Not pausing when naming emotions", "Joining sounds up and reading unfamiliar words", "Using phoneme knowledge for unfamiliar words", "Maintaining a conversation", "Learning self-esteem", "Managing frustration when instructed"))
 
 #This is for all the data I currently have (missing the last child). I create the data and then I turn them into factors.
-total_TME <- data.frame(Adult = c(1,1,2,1,2,2,2,2,1,2), 
+total_TME <- data.frame(EP = c(1,1,1,2,2,2,2,2,2,2),
+                        Adult = c(1,1,2,1,2,2,2,2,1,2), 
+                        Child = c(1,1,1,2,2,2,2,3,4,4),
                         Goal = c(1.1,1.2,1.1,2.1,2.2,2.3,2.1,3.1,4.1,4.2), 
                         Baseline = c(3,3,3,3,5,3,5,3,2,3), 
                         Expected = c(6,5,5,7,8,5,8,4,4,5), 
                         Actual =   c(4,4,3,3,7,4,6,3,3,4), 
                         Change =   c(1,1,0,0,2,1,1,0,1,1))
+#total_TME$Child <- factor(total_TME$EP, levels = c("1","2","3","4"), labels = c("1", "2","3","4"))
+total_TME$EP <- factor(total_TME$EP, levels = c("1","2"), labels = c("1", "2"))
 total_TME$Adult <- factor(total_TME$Adult, levels = c("1","2"), labels = c("Teacher", "Parent"))
 total_TME$Goal <- factor(total_TME$Goal, levels = c(1.1,1.2,2.1,2.1,2.2,2.3,3.1,4.1,4.2), labels = c("Maths problems up to 10", "Accept play requests", "Not pausing when naming emotions", "Joining sounds up and reading unfamiliar words", "Using phoneme knowledge for unfamiliar words", "Maintaining a conversation", "Learning self-esteem", "Learning self-esteem", "Managing frustration when instructed"))
 
