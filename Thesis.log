@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.22)  22 APR 2021 11:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.27)  28 APR 2021 21:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -584,82 +584,24 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {c:/Users/paddy/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
-x.map}]
-Underfull \hbox (badness 3942) in paragraph at lines 178--214
-\T1/lmr/m/n/10 ([]\T1/lmr/bx/n/10 sheri-dan_randomized_2017?[]\T1/lmr/m/n/10 ).
- Most Ed-u-ca-tional Psy-chol-ogy Ser-vices (EPS) in the U.K.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--214
-\T1/lmr/m/n/10 have moved to-wards a pre-dom-i-nantly consultation-based ser-vi
-ce ([]\T1/lmr/bx/n/10 ofar-rell_research_2018?[]\T1/lmr/m/n/10 ).
- []
-
-
-Underfull \hbox (badness 1681) in paragraph at lines 178--214
-\T1/lmr/m/n/10 This is in con-trast with what is viewed as a more tra-di-tional
- model which pre-dom-i-nantly in-
- []
-
-
-Underfull \hbox (badness 1199) in paragraph at lines 178--214
-\T1/lmr/m/n/10 volves in-di-vid-ual case-work, typ-i-cally in-clud-ing the ad-m
-in-is-tra-tion of a cog-ni-tive as-sess-ment ([]\T1/lmr/bx/n/10 kra-
- []
-
-
-Underfull \hbox (badness 1292) in paragraph at lines 178--214
-\T1/lmr/m/n/10 con-sul-ta-tion frame-work in the U.K. is the Wag-ner model ([]\
-T1/lmr/bx/n/10 wag-ner_consultation_1995?[]\T1/lmr/m/n/10 ; []\T1/lmr/bx/n/10 w
-ag-
- []
-
-
-Overfull \hbox (11.5151pt too wide) in paragraph at lines 245--259
-[]\T1/lmr/m/n/10 Another study ex-plor-ing the preva-lence of con-sul-ta-tion i
-n the UK comes from ([]\T1/lmr/bx/n/10 lead-bet-ter_patterns_2000?[]\T1/lmr/m/n
-/10 ).
- []
-
-[2] [3]
-Underfull \hbox (badness 4291) in paragraph at lines 371--402
-\T1/lmr/m/n/10 ([]\T1/lmr/bx/n/10 royal_borough_of_kensington_&_chelsea_educati
-onal_2019?[]\T1/lmr/m/n/10 ). Some EPs be-lieve they
- []
-
-[4] [5]
-Overfull \hbox (25.22025pt too wide) in paragraph at lines 568--590
-\T1/lmr/m/n/10 evidence-based tools and to crit-i-cally eval-u-ate their prac-t
-ice ([]\T1/lmr/bx/n/10 british_psychological_society_quality_2015?[]\T1/lmr/m/n
-/10 ,
- []
-
-[6] [7] [8]
+x.map}] [2] [3] [4] [5] [6] [7] [8]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 827.
+(Font)              <10> on input line 874.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 827.
+(Font)              <7> on input line 874.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 827.
+(Font)              <5> on input line 874.
 [9] [10] [11] [12] [13]
-
-! Package inputenc Error: Unicode character   (U+2002)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1267  
-                     It would always start with a question about w...
- 
+! Undefined control sequence.
+l.1270 \{=tex\} \newpage \blandscape
+                                     
 Here is how much of TeX's memory you used:
- 10645 strings out of 480954
- 155667 string characters out of 5905582
- 461789 words of memory out of 5000000
- 27537 multiletter control sequences out of 15000+600000
+ 10641 strings out of 480954
+ 156672 string characters out of 5905582
+ 459409 words of memory out of 5000000
+ 27536 multiletter control sequences out of 15000+600000
  448715 words of font info for 65 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 71i,5n,74p,325b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,6n,74p,325b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
+
 !  ==> Fatal error occurred, no output PDF file produced!

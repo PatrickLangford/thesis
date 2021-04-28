@@ -1,16 +1,11 @@
 ---
-html_document: null
-date: "28/05/2021"
+title: "What are the effective features of consultation? A mixed methods approach"
 output:
-  word_document: null
-  pdf_document: default
+  word_document: default
   html_document:
     df_print: paged
-title: "What are the effective features of consultation? A mixed methods approach"
-pdf_document:
-  includes: null
-  in_header: header.tex
-always_allow_html: yes
+  pdf_document: null
+date: "28/05/2021"
 bibliography: Thesis.bib
 link-citations: yes
 editor_options:
@@ -37,8 +32,14 @@ tinytex::install_tinytex()
 #  force = FALSE)
 #will likely need the papaja for the write up in general (which has to be installed with the code below as it's not on CRAN yet)
 devtools::install_github("crsh/papaja")
+#devtools::install_github("crsh/citr")
 ```
 
+
+
+# Abstract
+
+Consultation is an integral part of many Educational Psychologist's (EPs) work. Yet there is a large heterogeneity in understanding and use of this tool. Such diversity makes evaluating its efficacy difficult. This research therefore sought to identify what the effective features of consultation are by linking features to changes in agreed outcomes for children and young people (CYP). A mixed methodology was employed to explore what EPs believe are the key features of consultation, what happens in a consultation about a CYP, and which features can be identified in consultations which lead to positive changes for CYP. 30 EPs were interviewed exploring their views on the effective features of consultation and how they have altered their practice due to the lockdown. 6 consultations were observed, with features identified, and the changes in outcomes for CYP were measured using Target Monitoring Evaluation forms. These forms were completed at the end of the consultation and 6-8 weeks later, to allow analysis of which features were present for children with differing progress towards outcomes. The most effective features of consultation, as identified by EPs, included the collaborative nature of consultation, the use of questioning to fully understand the issue, and working with the consultees to generate solutions to help the CYP. 
 
 DO I NEED TO DEFINE THE WORD 'FEATURE'?
 
@@ -230,14 +231,9 @@ The subsequent chapter summarises the results from the two arms of the thesis. T
 The following chapter provides a summary of the quantitative data. In a format as laid out by the research questions, the data is presented in order to explore, firstly, TME as a means of assessing the objective impact for children of interventions for EPs across the service. This results section also presents the outcomes for the same children when a more established form of evaluation is used (the YARC) and how this compares and contrasts with the TME outcomes. 
 
 
-```{=tex}
-\newpage
-\blandscape
-```
 ![Thematic
 map](D:/Doctorate/Assessments/Y3/Thesis/Results/Interview_transcripts/Figures/Thematic_map.png)
 
-\elandscape
 
 ## 3.1 Interviews
 
@@ -1024,7 +1020,7 @@ row.names(fourth_obv_p_sums) <- "4th consultation (parent)"
 
 #Merge the data frames together into 1 table
 all_obs_sums <- rbind(first_obv_sums, second_obv_t_sums, second_obv_p_sums, third_obv_sums, fourth_obv_t_sums, fourth_obv_p_sums)
-kable(all_obs_sums)
+knitr::kable(all_obs_sums)
 ```
 
 ```{r TME results, echo = FALSE, results='asis'}
@@ -1040,7 +1036,7 @@ total_TME <- data.frame(EP = c(1,1,1,2,2,2,2,2,2,2),
 total_TME$EP <- factor(total_TME$EP, levels = c("1","2"), labels = c("1", "2"))
 total_TME$Adult <- factor(total_TME$Adult, levels = c("1","2"), labels = c("Teacher", "Parent"))
 total_TME$Goal <- factor(total_TME$Goal, levels = c(1.1,1.2,2.1,2.1,2.2,2.3,3.1,4.1,4.2), labels = c("Maths problems up to 10", "Accept play requests", "Not pausing when naming emotions", "Joining sounds up and reading unfamiliar words", "Using phoneme knowledge for unfamiliar words", "Maintaining a conversation", "Learning self-esteem", "Learning self-esteem", "Managing frustration when instructed"))
-kable(total_TME)
+knitr::kable(total_TME, caption = "TME goals with ratings for baseline, expected, and actual")
 ```
 
 # Discussion
