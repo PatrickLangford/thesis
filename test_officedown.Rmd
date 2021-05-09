@@ -88,7 +88,9 @@ people (CYP) we work with. By taking a mixed methods approach, this
 complex question could be analysed in a multitude of ways and through a
 range of methodologies. By doing so, the scope and depth of the issue is
 more likely to be understood. This can have a positive impact on both
-future research and practicing EPs across the country by helping them identify what they need to include in a consultation for it to be effective.
+future research and practicing EPs across the country by helping them
+identify what they need to include in a consultation for it to be
+effective.
 
 The data from this piece of research will be made publicly available,
 such that other researchers can download and analyse the results. Whilst
@@ -546,8 +548,8 @@ consultations is difficult. This is against the backdrop of EPs working
 within 'traded services' [@leeExplorationDevelopingRole2017], where the
 ability to demonstrate efficacy is highly valued. It therefore behoves
 EPs to gain an understanding of the consistent features of consultation.
-This will allow some assessment of which combination of features are sufficient to lead to
-improved outcomes for CYP.
+This will allow some assessment of which combination of features are
+sufficient to lead to improved outcomes for CYP.
 
 ### 1.1.6 Assessing the efficacy of consultation
 
@@ -706,15 +708,44 @@ understanding of what is required for a consultation to occur and how to
 increase the chances of engaging in consultations which lead to positive
 outcomes for CYP.
 
-Mixed methods was chosen because of the desire to explore the phenomenon (effective consultations) more completely than a single methodology could provide [@robsonRealWorldResearch2015]. Mixed methods have been previously used to examine consultation at different levels and respecting the complexity of the systems it is used in, for example [@bennAnalysisInstructionalConsultants2008]. The method chosen for the quantitative approach was observations. This is because of the value of observing real world consultations and systematically examining the features present. Previous arguments have been made that the qualitative exploration of consultation is insufficient; observation of real world consultations is essential to accurately examine this process [@henning-stoutConsultationConnectedKnowing1994]. Mixed methods also help to offset the weaknesses of each approach and increase the strength of possible inferences [@robsonRealWorldResearch2015]. The most appropriate qualitative tool to accompany the observation is interviews, as this is one of the best tools to thoroughly explore the views of those who are most knowledgeable about the phenomenon [@meyersQualitativeMixedMethods2014]. As such, EPs were interviewed to gain an understanding of their views of the effective features of consultation as they have first-hand experience of when consultations are and are not effective. Equal weighting will be given to each form of evidence and each can be used to inform the other and provide more depth.
+Mixed methods was chosen because of the desire to explore the phenomenon
+(effective consultations) more completely than a single methodology
+could provide [@robsonRealWorldResearch2015]. Mixed methods have been
+previously used to examine consultation at different levels and
+respecting the complexity of the systems it is used in, for example
+[@bennAnalysisInstructionalConsultants2008]. The method chosen for the
+quantitative approach was observations. This is because of the value of
+observing real world consultations and systematically examining the
+features present. Previous arguments have been made that the qualitative
+exploration of consultation is insufficient; observation of real world
+consultations is essential to accurately examine this process
+[@henning-stoutConsultationConnectedKnowing1994]. Mixed methods also
+help to offset the weaknesses of each approach and increase the strength
+of possible inferences [@robsonRealWorldResearch2015]. The most
+appropriate qualitative tool to accompany the observation is interviews,
+as this is one of the best tools to thoroughly explore the views of
+those who are most knowledgeable about the phenomenon
+[@meyersQualitativeMixedMethods2014]. As such, EPs were interviewed to
+gain an understanding of their views of the effective features of
+consultation as they have first-hand experience of when consultations
+are and are not effective. Equal weighting will be given to each form of
+evidence and each can be used to inform the other and provide more
+depth.
 
 ## 1.3 Research questions
 
 Given the lack of strong theory in this area of research, research
 questions were developed but statistical hypotheses could not be drawn.
 Thus, it is exploratory research
-[@kimmelmanDistinguishingExploratoryConfirmatory2014]. The general aim of this research was to identify, through observations and interviews, what the key features of consultations that lead to change for CYP are. This was done by asking EPs what they believed the effective features of consultation are, what makes them effective, and then observing consultations and systematically noting which features occurred. This allowed the comparison of said features with progress towards agreed goals for various CYP and whether they reflected the views of EPs. As such, the research
-questions (RQs) were:
+[@kimmelmanDistinguishingExploratoryConfirmatory2014]. The general aim
+of this research was to identify, through observations and interviews,
+what the key features of consultations that lead to change for CYP are.
+This was done by asking EPs what they believed the effective features of
+consultation are, what makes them effective, and then observing
+consultations and systematically noting which features occurred. This
+allowed the comparison of said features with progress towards agreed
+goals for various CYP and whether they reflected the views of EPs. As
+such, the research questions (RQs) were:
 
 1.  What are the core features of an effective consultation?
 
@@ -789,8 +820,8 @@ Yorkshire, Wales, and the Republic of Ireland.
 6 different consultations for 4 children were observed. These
 consultations were led by 2 EPs. 1 was a joint home-school consultation,
 2 were consultations with one parent, 1 was a consultation with two
-parents, and 2 consultations involved the class teacher (see Appendix
-A for a full breakdown of which consultations involved which EPs and
+parents, and 2 consultations involved the class teacher (see Appendix A
+for a full breakdown of which consultations involved which EPs and
 consultees and were for which children).
 
 ## 2.3 Materials
@@ -805,18 +836,17 @@ and software used were Free/Libre and Open Source Software
 ### 2.3.1 Interviews
 
 A semi-structured interview format was used because an interview
-schedule was developed (Appendix B) which served as a checklist of
-areas to be explored with a given question order and wording. However,
-the order and wording was allowed to change given the flow of the
-interview. Additional questions were used to further develop a
-interviewee's answer [@robsonRealWorldResearch2015]. Semi-structured
-interviews were chosen because the researcher conducted all the
-interviews and could thus explore answers in greater detail given their
-knowledge of the area. However, given this intimacy with the research
-questions and purpose of the study, there is a risk the researcher may
-ask leading questions to further a certain outcome. Thus, the core
-questions were agreed prior to the first interview to try and minimise
-bias.
+schedule was developed (Appendix B) which served as a checklist of areas
+to be explored with a given question order and wording. However, the
+order and wording was allowed to change given the flow of the interview.
+Additional questions were used to further develop a interviewee's answer
+[@robsonRealWorldResearch2015]. Semi-structured interviews were chosen
+because the researcher conducted all the interviews and could thus
+explore answers in greater detail given their knowledge of the area.
+However, given this intimacy with the research questions and purpose of
+the study, there is a risk the researcher may ask leading questions to
+further a certain outcome. Thus, the core questions were agreed prior to
+the first interview to try and minimise bias.
 
 The interviews were of the focused type as the questions centred around
 the key theme of consultation [@mertonFocusedInterviewManual1990]. The
@@ -865,8 +895,10 @@ limited to what was explicitly said because this would help reduce the
 amount of interpretation needed for behaviours such as non-verbal
 interactions. Models of consultation, such as Solution-focused and
 problem-analysis, were broken down into their constituent observable
-parts, such as exploring strengths and identifying exceptions.
-Commonly cited concepts in the literature such as 'collaborative' were split into explicit examples of those concepts, such as Everyone's contributions valued.
+parts, such as exploring strengths and identifying exceptions. Commonly
+cited concepts in the literature such as 'collaborative' were split into
+explicit examples of those concepts, such as Everyone's contributions
+valued.
 
 Event sampling was used as the absolute and relative frequency of events
 was of interest [@robsonRealWorldResearch2015]. A sequence record was
@@ -977,13 +1009,16 @@ the other.
 Interviews were originally planned to be in person with EPs in the
 researcher's EPS. However, because of the global pandemic, all
 non-essential in person meetings were banned. They were therefore
-switched to video or phone call interviews. This necessitated a choice in video call technology. Because of the increased familiarity of the public, ease of use, and improved security features [@zoomReleaseNotesApril2020], Zoom was judged to be appropriate for the purposes of this research. Because of the sudden
-increase in proficiency and willingness of many EPs to use phone and
-video call technology, the parameters of the participant recruitment for
-the interviews was widened to all EPs. This decision was made because of
-a desire to increase the number of participants and thus the range of
-views on consultation. Informed consent was gained prior to
-participation (see Appendix E).
+switched to video or phone call interviews. This necessitated a choice
+in video call technology. Because of the increased familiarity of the
+public, ease of use, and improved security features
+[@zoomReleaseNotesApril2020], Zoom was judged to be appropriate for the
+purposes of this research. Because of the sudden increase in proficiency
+and willingness of many EPs to use phone and video call technology, the
+parameters of the participant recruitment for the interviews was widened
+to all EPs. This decision was made because of a desire to increase the
+number of participants and thus the range of views on consultation.
+Informed consent was gained prior to participation (see Appendix E).
 
 Semi-structured focused interviews were used to elicit EP views with
 regards to the core features of consultation, the barriers to effective
@@ -1139,10 +1174,10 @@ of their significance and implications
 [@pattonQualitativeEvaluationResearch1990]. TA identified 32 inductive
 codes, as well as the 15 deductive codes previously set, relating to
 what features EPs believed were effective for consultation. 6 codes were
-identified for what made said features effective (see Appendix F for
-the definitions of the inductive codes, Appendix G for the definitions
-of the codes relating to what makes the features effective and Appendix
-H for the breakdown of the number of interviews which each code was
+identified for what made said features effective (see Appendix F for the
+definitions of the inductive codes, Appendix G for the definitions of
+the codes relating to what makes the features effective and Appendix H
+for the breakdown of the number of interviews which each code was
 identified in and the total number of codes for each feature). These
 were combined to create 8 themes: Buy-in, Conditions, Context,
 Strengths-based, Shared understanding, Intervention, Future facing, and
@@ -1363,7 +1398,9 @@ What follows is a more detailed description of each constituent code.
 include_graphics("D:/Doctorate/Assessments/Y3/Thesis/Results/Interview_transcripts/Figures/Thematic_map.png")
 ```
 
-*Note.* Light blue square: over-arching theme, orange square: theme, yellow circle: feature of consultation code, dark blue circle: what makes the feature effective code.
+*Note.* Light blue square: over-arching theme, orange square: theme,
+yellow circle: feature of consultation code, dark blue circle: what
+makes the feature effective code.
 
 <!---BLOCK_LANDSCAPE_STOP--->
 
@@ -1570,13 +1607,17 @@ school:
 
 An important feature of consultation that relates to rapport is the
 understanding that the consultees, EP, and school as a whole have
-towards consultation. The conception EPs and consultees have of consultation impacts on whether they buy-in to the process. If they do not see consultation as a collaborative process, they are less likely to engage with it in an effective way and believe it is a good use of their time. How the EP and consultees view consultation can
-have a large impact on a consultation and its efficacy. A belief shared
-by many interviewees was that *"both parties... know how
-consultation works"* (Interview 24) and this *"might depend on people's
-constructs of what consultation is"* (Interview 29). Interviewees had an
-overwhelmingly positive view of consultation, highlighting its
-versatility and alignment with their values:
+towards consultation. The conception EPs and consultees have of
+consultation impacts on whether they buy-in to the process. If they do
+not see consultation as a collaborative process, they are less likely to
+engage with it in an effective way and believe it is a good use of their
+time. How the EP and consultees view consultation can have a large
+impact on a consultation and its efficacy. A belief shared by many
+interviewees was that *"both parties... know how consultation works"*
+(Interview 24) and this *"might depend on people's constructs of what
+consultation is"* (Interview 29). Interviewees had an overwhelmingly
+positive view of consultation, highlighting its versatility and
+alignment with their values:
 
 > *...consultation, I think, is a, is a framework with the complexity
 > that matches the complexity of the concerns that are being raised.
@@ -1643,9 +1684,13 @@ with them:
 #### 3.1.1.6 EP view of EPs and Consultee view of EPs
 
 Another relevant strand to the different perceptions of consultations is
-how the consultees view EPs and their role. This relates to the theme of Buy-in because if both or either party view the EP as the expert who will fix the problem for the consultee, they will not buy-in to the collaborative nature of the consultation. This threatens the efficacy of the consultation. Several interviewees talked
-about how they were viewed as gatekeepers to resources or as someone who
-would fix the situation independently of any work by the consultees:
+how the consultees view EPs and their role. This relates to the theme of
+Buy-in because if both or either party view the EP as the expert who
+will fix the problem for the consultee, they will not buy-in to the
+collaborative nature of the consultation. This threatens the efficacy of
+the consultation. Several interviewees talked about how they were viewed
+as gatekeepers to resources or as someone who would fix the situation
+independently of any work by the consultees:
 
 > *...the associations that staff or parents can have of us as being,
 > kind of, the deciders of resources. So we will go in and we will say,
@@ -1752,7 +1797,10 @@ shared knowledge, they are more likely to be feasible:
 > whatever is being brought into the room and, sort of, helping to
 > manage some of the complexity. (Interview 27)*
 
-If these suggestions are created collaboratively, then the consultees are more likely to buy-in to the process of consultation and are more likely to put in place the recommendations. This greatly increases the chance of the consultation having a positive impact for the CYP.
+If these suggestions are created collaboratively, then the consultees
+are more likely to buy-in to the process of consultation and are more
+likely to put in place the recommendations. This greatly increases the
+chance of the consultation having a positive impact for the CYP.
 
 #### 3.1.1.10 Consultees as experts
 
@@ -1767,7 +1815,10 @@ experts of their own area:
 > *I think they're effective because, we're capitalising on that idea
 > that people are experts in their own lives. (Interview 22)*
 
-If the consultees are seen as having valuable knowledge to bring to the discussion, they are more likely to be an active participant in it. They are therefore more likely to buy-in to the consultation and fully engage with it, thus increasing the efficacy of the consultation.
+If the consultees are seen as having valuable knowledge to bring to the
+discussion, they are more likely to be an active participant in it. They
+are therefore more likely to buy-in to the consultation and fully engage
+with it, thus increasing the efficacy of the consultation.
 
 ### 3.1.2 EP skills and knowledge
 
@@ -2900,8 +2951,8 @@ Suggesting solutions and Information gather were the next most commonly
 observed features. For the parent consultation of child 2, because the
 number of times each feature was seen was below the mean, no features
 were classed as present. However, change was judged to have occurred for
-each goal. For the other goals which recorded change, three contained
-EP using expert knowledge, Suggesting solutions, and Information gather.
+each goal. For the other goals which recorded change, three contained EP
+using expert knowledge, Suggesting solutions, and Information gather.
 Two contained Empowering individuals, Setting out the consultation plan,
 Everyone's contributions valued, and CYP strengths.
 
@@ -2992,7 +3043,8 @@ consultation plan, the absence of the EP using expert knowledge, the
 presence of Understanding the presenting problem, the absence of
 Everyone' contributions valued, the presence of Discussing what already
 works, the absence of CYP strengths, the absence of Suggesting
-solutions, and the presence of Information gathering. This corresponded to the teacher consultation for child 4.
+solutions, and the presence of Information gathering. This corresponded
+to the teacher consultation for child 4.
 
 <!---BLOCK_LANDSCAPE_START--->
 
@@ -3393,8 +3445,9 @@ these features of consultation are effective: that what is recommended
 is realistic. By listening to the consultees and valuing their opinions,
 EPs are more likely to be able to make recommendations that fit within
 the context of the school and can be reasonably put in. If an EP makes a
-series of grand recommendations for the CYP but the school do not have the means to implement them, then there is little chance the situation will
-improve. But by having a collaborative consultation, in which
+series of grand recommendations for the CYP but the school do not have
+the means to implement them, then there is little chance the situation
+will improve. But by having a collaborative consultation, in which
 recommendations are co-created, the solutions are more likely to be
 feasible and therefore the chance of having an effective consultation
 and a positive impact is increased. This is associated with the final
@@ -3413,92 +3466,382 @@ mentioned this as a valuable mechanism for effective consultations.
 
 #### 4.1.2.1 Non-formal analysis of features and goals
 
-A majority of the goals were judged to have experienced progress, bolstering the claim made in @dunsmuirEvidenceBasedPractice2009. Of those which saw progress, patterns can be drawn. A qualitative examination of the correspondence between features of consultation and change revealed that consultations with fewer recorded instances of Understanding the presenting problem were more likely to see change. Such examples include the parent consultation for child 2 and the parent consultation for child 4 (see Appendix L for all observed features and change). There was also a greater number of instances of Suggesting solutions by the EP during consultations which saw change, such as the first consultation and the parent consultation for child 4.
+A majority of the goals were judged to have experienced progress,
+bolstering the claim made in @dunsmuirEvidenceBasedPractice2009. Of
+those which saw progress, patterns can be drawn. A qualitative
+examination of the correspondence between features of consultation and
+change revealed that consultations with fewer recorded instances of
+Understanding the presenting problem were more likely to see change.
+Such examples include the parent consultation for child 2 and the parent
+consultation for child 4 (see Appendix L for all observed features and
+change). There was also a greater number of instances of Suggesting
+solutions by the EP during consultations which saw change, such as the
+first consultation and the parent consultation for child 4.
 
-There was a disparity between what interviewees stated was important and what was observed in the consultations. Collaboration was given by almost every interviewee as a crucial feature. However, observable instances of this feature were less frequently seen than the EP exploring the presenting problem for a majority of consultations. This may represent a gap between what EPs say is important and what they actually do in a consultation when they are there to support a specific CYP in that context. It does, however, corroborate the importance of EPs using parts of models e.g. the Problem-analysis framework. This is because for each consultation the most frequently seen feature was Understanding the presenting problem. This is substantiated by the fact one of the EPs who was observed stated in their interview that the main model they use in their practice is the Problem-analysis framework. On the other hand, this emphasis on exploring the depth and limits of the main problem may not reflect adherence to this model (and thus be evidence for the importance of using said model). It may just be an exploration of the main difficulties (and arguably the reason why the consultation was organised in the first place). The absence of other features of the Problem-analysis framework, such as discussing how to implement an intervention, is suggestive of the perceived need by EPs to fully understand the presenting problem rather than fully commit to a certain model. This suggests a disparity between how EPs say they work and what happens in a consultation.
+There was a disparity between what interviewees stated was important and
+what was observed in the consultations. Collaboration was given by
+almost every interviewee as a crucial feature. However, observable
+instances of this feature were less frequently seen than the EP
+exploring the presenting problem for a majority of consultations. This
+may represent a gap between what EPs say is important and what they
+actually do in a consultation when they are there to support a specific
+CYP in that context. It does, however, corroborate the importance of EPs
+using parts of models e.g. the Problem-analysis framework. This is
+because for each consultation the most frequently seen feature was
+Understanding the presenting problem. This is substantiated by the fact
+one of the EPs who was observed stated in their interview that the main
+model they use in their practice is the Problem-analysis framework. On
+the other hand, this emphasis on exploring the depth and limits of the
+main problem may not reflect adherence to this model (and thus be
+evidence for the importance of using said model). It may just be an
+exploration of the main difficulties (and arguably the reason why the
+consultation was organised in the first place). The absence of other
+features of the Problem-analysis framework, such as discussing how to
+implement an intervention, is suggestive of the perceived need by EPs to
+fully understand the presenting problem rather than fully commit to a
+certain model. This suggests a disparity between how EPs say they work
+and what happens in a consultation.
 
-The importance of the individual differences of the consultees was highlighted in these observations, as consultees who were more optimistic and less stressed were better able to engage collaboratively and not focus as much on exploring the negative aspects of the situation. Examples of these include the parent consultation for child 2 as the ratio between Understanding presenting problem and other features was more even. The teacher consultation for child 2 was also an opportunity to highlight the importance of emotionally supporting consultees, given how upset the consultee was and therefore unable to engage with one aspect of the consultation prior to said support. 
+The importance of the individual differences of the consultees was
+highlighted in these observations, as consultees who were more
+optimistic and less stressed were better able to engage collaboratively
+and not focus as much on exploring the negative aspects of the
+situation. Examples of these include the parent consultation for child 2
+as the ratio between Understanding presenting problem and other features
+was more even. The teacher consultation for child 2 was also an
+opportunity to highlight the importance of emotionally supporting
+consultees, given how upset the consultee was and therefore unable to
+engage with one aspect of the consultation prior to said support.
 
-The fact three putatively core features of effective consultation (School knowledge, EP explaining role, and Planning/implementing treatments) were not recorded once undermines the argument that they are important for effective consultations. This is also true for Empowering individuals as this was only recorded once. They do not appear to be necessary and perhaps are not sufficient for change to be judged as having occurred. Even though there were instances of the EP offering solutions in most consultation, there was no discussion of the specifics of how any suggestion was to be implemented (as there were no recorded instances of Planning/implementing treatments). There was also no review of any prior treatments. This raises questions as to how effective the suggestions are. If they are left to the consultees to establish and decide how often an intervention should be run for, will it be as effective as if it were decided with the person who is believed to have expert knowledge?
+The fact three putatively core features of effective consultation
+(School knowledge, EP explaining role, and Planning/implementing
+treatments) were not recorded once undermines the argument that they are
+important for effective consultations. This is also true for Empowering
+individuals as this was only recorded once. They do not appear to be
+necessary and perhaps are not sufficient for change to be judged as
+having occurred. Even though there were instances of the EP offering
+solutions in most consultation, there was no discussion of the specifics
+of how any suggestion was to be implemented (as there were no recorded
+instances of Planning/implementing treatments). There was also no review
+of any prior treatments. This raises questions as to how effective the
+suggestions are. If they are left to the consultees to establish and
+decide how often an intervention should be run for, will it be as
+effective as if it were decided with the person who is believed to have
+expert knowledge?
 
-There was a lack of consistency regarding the discrepancy between the ratings given by parents and teachers: one consultation saw the teacher identifying change and the parent not, another saw the parent judging there to have been progress but the teacher not. This reflects the fact TME is based upon the perceptions of change by consultees and thus there may be different conceptions and criteria for judging change between consultees [@connorTargetMonitoringEvaluation2010]. However, the sample is too small to draw any patterns or conclusions from this data. 
+There was a lack of consistency regarding the discrepancy between the
+ratings given by parents and teachers: one consultation saw the teacher
+identifying change and the parent not, another saw the parent judging
+there to have been progress but the teacher not. This reflects the fact
+TME is based upon the perceptions of change by consultees and thus there
+may be different conceptions and criteria for judging change between
+consultees [@connorTargetMonitoringEvaluation2010]. However, the sample
+is too small to draw any patterns or conclusions from this data.
 
 #### 4.1.2.2 QCA
 
-QCA identified three combination of features which were sufficient for change after calibration and Boolean minimisation. The validity of QCA for this data set is undermined as three goals which saw change contained no features after calibration (goals for the parent consultation of child 2). Therefore, limited conclusions can be drawn from this analysis. The combinations which contain a mixture of present and absent features will be explored. One such combination of conditions which led to change was: Setting out consultation plan, Understanding the presenting problem, Discussing what's already working, and Gathering information. The other combination was: Ideas for future EP work, Setting out consultation plan, EP using expert knowledge, Summarising, and Suggesting solutions. Only one feature is shared between these combinations (Setting out consultation plan). This gives tentative support for the importance of establishing the consultation plan as this feature was also observed during the other consultations which saw change.
+QCA identified three combination of features which were sufficient for
+change after calibration and Boolean minimisation. The validity of QCA
+for this data set is undermined as three goals which saw change
+contained no features after calibration (goals for the parent
+consultation of child 2). Therefore, limited conclusions can be drawn
+from this analysis. The combinations which contain a mixture of present
+and absent features will be explored. One such combination of conditions
+which led to change was: Setting out consultation plan, Understanding
+the presenting problem, Discussing what's already working, and Gathering
+information. The other combination was: Ideas for future EP work,
+Setting out consultation plan, EP using expert knowledge, Summarising,
+and Suggesting solutions. Only one feature is shared between these
+combinations (Setting out consultation plan). This gives tentative
+support for the importance of establishing the consultation plan as this
+feature was also observed during the other consultations which saw
+change.
 
 ## 4.2 Limitations
 
 ### 4.2.1 Interviews
 
-Despite the large amount of interview data, there are limitations with the methods chosen and the data analysis. No measures were taken to ensure the reliability of the TA, such as using inter-rater reliability. It is therefore unknown to what extent the biases of the sole analyst of the transcripts biased the analysis. There are also limitations of the methodology employed (TA) as this provides only a surface level analysis of codes and themes. As such, the depth of the data was not plumbed and latent themes were not examined.
+Despite the large amount of interview data, there are limitations with
+the methods chosen and the data analysis. No measures were taken to
+ensure the reliability of the TA, such as using inter-rater reliability.
+It is therefore unknown to what extent the biases of the sole analyst of
+the transcripts biased the analysis. There are also limitations of the
+methodology employed (TA) as this provides only a surface level analysis
+of codes and themes. As such, the depth of the data was not plumbed and
+latent themes were not examined.
 
 For the features that were identified, many were broad, ill defined
 concepts such as 'collaborative' rather than features which could be
-observed. This means that there were many features which were inductively coded
-which could not have been used as deductive codes or form part of the observation schedule. There is therefore the potential that the observation schedule missed some core features due to the fact many "features" of consultation are not operationalised.
+observed. This means that there were many features which were
+inductively coded which could not have been used as deductive codes or
+form part of the observation schedule. There is therefore the potential
+that the observation schedule missed some core features due to the fact
+many "features" of consultation are not operationalised.
 
-There were also limitations of the tools used to conduct the interviews. Although Zoom underwent security improvements, there was still a risk of interferene or data loss which are not present in face-to-face interviews. To mitigate this risk, the in-built recording function was not used. There were also connectivity issues present in a few consultations. Typically only a few words were lost, but it is unknown how much of an impact this may have had on the contents of the interviews. There were also three interviews which interrupted by family members. Whilst this did not directly lead to a loss of data, it interrupted the flow of the interview and may have impacted on what the interviewee said. It is unknown how great an impact these factors had on the TA, although the risk of codes or themes being lost due to them is minimised because of the amount of data collected. 
+There were also limitations of the tools used to conduct the interviews.
+Although Zoom underwent security improvements, there was still a risk of
+interferene or data loss which are not present in face-to-face
+interviews. To mitigate this risk, the in-built recording function was
+not used. There were also connectivity issues present in a few
+consultations. Typically only a few words were lost, but it is unknown
+how much of an impact this may have had on the contents of the
+interviews. There were also three interviews which interrupted by family
+members. Whilst this did not directly lead to a loss of data, it
+interrupted the flow of the interview and may have impacted on what the
+interviewee said. It is unknown how great an impact these factors had on
+the TA, although the risk of codes or themes being lost due to them is
+minimised because of the amount of data collected.
 
-Another limitation related to the use of video technology, and one which speaks to the heart of tech consultations, relates to the level of engagement of consultees. Whilst tech consultations can increase accessibility for consultees, they can also result in consultees participating in other activities during the consultation. This reduces their ability to focus and thus potentially understand certain parts of the consultation. For example, during the establishing goals phase at the end of the joint home-school consultation for child 1, the parent was driving and thus could not engage as fully. This likely led to the parent being unable to give a rating for the second goal as they did not understand it. Therefore, tech consultations may undermine the efficacy of consultations because consultees may not have the mental space to fully give to the consultation, thus undermining engagement. This reduces the ability of the results to generalise to face-to-face consultation, as such distractions are less likely when everyone is in the same room together.
+Another limitation related to the use of video technology, and one which
+speaks to the heart of tech consultations, relates to the level of
+engagement of consultees. Whilst tech consultations can increase
+accessibility for consultees, they can also result in consultees
+participating in other activities during the consultation. This reduces
+their ability to focus and thus potentially understand certain parts of
+the consultation. For example, during the establishing goals phase at
+the end of the joint home-school consultation for child 1, the parent
+was driving and thus could not engage as fully. This likely led to the
+parent being unable to give a rating for the second goal as they did not
+understand it. Therefore, tech consultations may undermine the efficacy
+of consultations because consultees may not have the mental space to
+fully give to the consultation, thus undermining engagement. This
+reduces the ability of the results to generalise to face-to-face
+consultation, as such distractions are less likely when everyone is in
+the same room together.
 
 ### 4.2.2 Observations
 
 #### 4.2.2.1 Methodological
 
-There were a number of potential methodological limitations of the chosen methods for the quantitative arm of the research. One such concern related to the nature of the features. By limiting the features to what was explicitly said, features such as body language and more abstract features were necessarily excluded from the
-analysis. Therefore, potentially valuable features may have been missed. A related issue concerned the nature of recording the presence of features. As there was only one observer, there is a risk of subjective interpretation of features. The ICC of the observation checklist was under 0.5 and therefore, by the standards given by @kooGuidelineSelectingReporting2016, is 'poor'. Thus there is the potential for unreliability in the recording of the features.
+There were a number of potential methodological limitations of the
+chosen methods for the quantitative arm of the research. One such
+concern related to the nature of the features. By limiting the features
+to what was explicitly said, features such as body language and more
+abstract features were necessarily excluded from the analysis.
+Therefore, potentially valuable features may have been missed. A related
+issue concerned the nature of recording the presence of features. As
+there was only one observer, there is a risk of subjective
+interpretation of features. The ICC of the observation checklist was
+under 0.5 and therefore, by the standards given by
+@kooGuidelineSelectingReporting2016, is 'poor'. Thus there is the
+potential for unreliability in the recording of the features.
 
-One component of solution-focused approaches (exploring exceptions) was not included in the observation schedule due to a clerical error. Thus, instances of an observed feature which was mentioned by interviewees was missed. This undermines the validity of the observation results. Another issue relating to the features included in the observation schedule related to their potential thoroughness. The large disparity between the theoretically derived codes and the inductive codes suggests the current literature does not capture the breadth of features present in consultation. Whilst the features of consultation were supported in previous work, it was a small-scale project limited to a small number of EPs. Therefore, the observation schedule may be missing key features of an effective consultation. This undermines the validity of the quantitative results.  
+One component of solution-focused approaches (exploring exceptions) was
+not included in the observation schedule due to a clerical error. Thus,
+instances of an observed feature which was mentioned by interviewees was
+missed. This undermines the validity of the observation results. Another
+issue relating to the features included in the observation schedule
+related to their potential thoroughness. The large disparity between the
+theoretically derived codes and the inductive codes suggests the current
+literature does not capture the breadth of features present in
+consultation. Whilst the features of consultation were supported in
+previous work, it was a small-scale project limited to a small number of
+EPs. Therefore, the observation schedule may be missing key features of
+an effective consultation. This undermines the validity of the
+quantitative results.
 
-Another potential limitation related to the use of TME. This tool has not been demonstrated as being a suitable measure of the effectiveness of consultation. There is evidence to suggest it can be used to measure change for a child on a given goal, for example [@connorTargetMonitoringEvaluation2010]. However, as this same thesis identified, it is very difficult to attribute the observed change to the consultation itself due to the large number of occurrences and other factors which may influence the rating of change.
+Another potential limitation related to the use of TME. This tool has
+not been demonstrated as being a suitable measure of the effectiveness
+of consultation. There is evidence to suggest it can be used to measure
+change for a child on a given goal, for example
+[@connorTargetMonitoringEvaluation2010]. However, as this same thesis
+identified, it is very difficult to attribute the observed change to the
+consultation itself due to the large number of occurrences and other
+factors which may influence the rating of change.
 
-There were also limitations of the measurement of progress: TME. There is evidence to suggest TME may be a valid tool for measuring change for CYP [@connorTargetMonitoringEvaluation2010]. But the psychometric validity
-of TME for evaluating EP practice and specifically consultation has yet to be demonstrated. Without rigorous identification of interventions or means to support the CYP and follow-up to confirm these
-happen, we cannot know how much of an impact the consultation had on the consultees and the consequent impact on the CYP.
+There were also limitations of the measurement of progress: TME. There
+is evidence to suggest TME may be a valid tool for measuring change for
+CYP [@connorTargetMonitoringEvaluation2010]. But the psychometric
+validity of TME for evaluating EP practice and specifically consultation
+has yet to be demonstrated. Without rigorous identification of
+interventions or means to support the CYP and follow-up to confirm these
+happen, we cannot know how much of an impact the consultation had on the
+consultees and the consequent impact on the CYP.
 
-There was another practical issue with the use of TME for this research. The majority of consultations (four of the six) took place prior to the Christmas holidays which was followed by a national lockdown. The children therefore spent a majority of the 6-8 week period out of school where most of their support was expected to be delivered. This may have resulted in the children making less progress than predicted, given the extended time they were away from school. 
+There was another practical issue with the use of TME for this research.
+The majority of consultations (four of the six) took place prior to the
+Christmas holidays which was followed by a national lockdown. The
+children therefore spent a majority of the 6-8 week period out of school
+where most of their support was expected to be delivered. This may have
+resulted in the children making less progress than predicted, given the
+extended time they were away from school.
 
 #### 4.2.2.2 Sample
 
-The initial conception of the research limited observations to joint home-school consultations. However, due to the difficulty in arranging such observations, the scope was broadened to any consultation. Since the interviews occurred prior to the observations, when the research questions focused solely on joint home-school consultations, interviewees may have put the focus of their answers on joint home-school consultations. One interviewee made such a comment. It is therefore unknown whether the answers from the interviewees would be different if the scope of the questions had been broader from the beginning. However, most interviewees seemed to approach the questions with consultations in general in mind. Thus, one can be reasonably confident the qualitative data results are similar to what would have otherwise been seen. The number of interviews (30) also helped reduce the impact this more narrow a focus some interviewees had towards the questions. 
+The initial conception of the research limited observations to joint
+home-school consultations. However, due to the difficulty in arranging
+such observations, the scope was broadened to any consultation. Since
+the interviews occurred prior to the observations, when the research
+questions focused solely on joint home-school consultations,
+interviewees may have put the focus of their answers on joint
+home-school consultations. One interviewee made such a comment. It is
+therefore unknown whether the answers from the interviewees would be
+different if the scope of the questions had been broader from the
+beginning. However, most interviewees seemed to approach the questions
+with consultations in general in mind. Thus, one can be reasonably
+confident the qualitative data results are similar to what would have
+otherwise been seen. The number of interviews (30) also helped reduce
+the impact this more narrow a focus some interviewees had towards the
+questions.
 
-Issues with the generalisability of the findings were raised due to the fact the observations were almost exclusively from one EP. Both EPs observed worked in the same LA and all the observed consultations were remote. We therefore cannot be certain that the findings extend to other EPs in other LAs and to in-person consultations. The issue of generalisability is also raised by the fact one of the consultations (the parent consultation for child 4), the main body was dictated by the use of the Cognitive abilities profile. This highly structured tool therefore involved a large number of questions exploring the presenting problem and other areas. As such, it may not be representative of a consultation which does not use that tool or is less structured. 
+Issues with the generalisability of the findings were raised due to the
+fact the observations were almost exclusively from one EP. Both EPs
+observed worked in the same LA and all the observed consultations were
+remote. We therefore cannot be certain that the findings extend to other
+EPs in other LAs and to in-person consultations. The issue of
+generalisability is also raised by the fact one of the consultations
+(the parent consultation for child 4), the main body was dictated by the
+use of the Cognitive abilities profile. This highly structured tool
+therefore involved a large number of questions exploring the presenting
+problem and other areas. As such, it may not be representative of a
+consultation which does not use that tool or is less structured.
 
 #### 4.2.2.3 QCA
 
-QCA is a valuable tool for examining causal patterns in conditions for complex phenomena. However, @marxCrispSetQualitativeComparative2011 recommend eschewing QCA when there are more conditions than cases. This is because of the increased risk of each case forming a unique configuration, which invalidates the ability of QCA to find common combinations. There is also an increased chance of the data being random but still finding an explanatory model [@marxCrispsetQualitativeComparative2010]. This appears to be the case for the present data set. There were 10 cases (six of which had unique features) and 14 conditions. There was therefore an increased risk of being unable to find meaningful combinations of conditions to glean patterns. The results showed that each combination only corresponded to one consultation with very little overlap between combinations. This made drawing conclusions regarding the consistent combination of features to change very difficult. Another issue related to the calibration thresholds. Using the mean as the threshold resulted in the consultation which saw the most change (parent consultation for child 2) recording no features present. This undermines the ability to draw conclusions regarding combinations of conditions. A more appropriate threshold would be one weighted by the total number of observations per case. This would overcome the problem of some cases containing a higher number of features and thus consigning other cases to record no features after calibration.
+QCA is a valuable tool for examining causal patterns in conditions for
+complex phenomena. However, @marxCrispSetQualitativeComparative2011
+recommend eschewing QCA when there are more conditions than cases. This
+is because of the increased risk of each case forming a unique
+configuration, which invalidates the ability of QCA to find common
+combinations. There is also an increased chance of the data being random
+but still finding an explanatory model
+[@marxCrispsetQualitativeComparative2010]. This appears to be the case
+for the present data set. There were 10 cases (six of which had unique
+features) and 14 conditions. There was therefore an increased risk of
+being unable to find meaningful combinations of conditions to glean
+patterns. The results showed that each combination only corresponded to
+one consultation with very little overlap between combinations. This
+made drawing conclusions regarding the consistent combination of
+features to change very difficult. Another issue related to the
+calibration thresholds. Using the mean as the threshold resulted in the
+consultation which saw the most change (parent consultation for child 2)
+recording no features present. This undermines the ability to draw
+conclusions regarding combinations of conditions. A more appropriate
+threshold would be one weighted by the total number of observations per
+case. This would overcome the problem of some cases containing a higher
+number of features and thus consigning other cases to record no features
+after calibration.
 
 ## 4.3 Future directions
 
-Despite the limitations put forward in section 4.2.2, the use of an observation schedule and QCA to explore combinations of causal conditions is valid. To increase the chance of meaningful conclusions being drawn, a greater number of consultations should be observed. There would thus be a more conducive case to condition ratio, for example at least 30 cases to the 14 conditions. TME could be used again as the measure of change, although this could be done in tandem with other more robust measures, as was done in @connorTargetMonitoringEvaluation2010. 
+Despite the limitations put forward in section 4.2.2, the use of an
+observation schedule and QCA to explore combinations of causal
+conditions is valid. To increase the chance of meaningful conclusions
+being drawn, a greater number of consultations should be observed. There
+would thus be a more conducive case to condition ratio, for example at
+least 30 cases to the 14 conditions. TME could be used again as the
+measure of change, although this could be done in tandem with other more
+robust measures, as was done in @connorTargetMonitoringEvaluation2010.
 
-Alternatively, another measure of consultation efficacy could be developed. This measure would focus on a mechanism by which consultation can have a direct impact on the consultees. For example, by
-changing the perspectives of the consultees. This could be in relation to feeling better able to
-support the CYP or more hopeful for the future. A multi-item
-questionnaire exploring the construct(s) would be presented to the
-consultees before and after the consultation. This same questionnaire
-could be presented a few months later to see how long-term the change
-in perspectives for the consultee(s) is (if at all). How perspective change then
-impacts the CYP could be explored through interviews or questionnaires, as potentially increased support may be given, or the consultees may have a more positive outlook for the CYP.
+Alternatively, another measure of consultation efficacy could be
+developed. This measure would focus on a mechanism by which consultation
+can have a direct impact on the consultees. For example, by changing the
+perspectives of the consultees. This could be in relation to feeling
+better able to support the CYP or more hopeful for the future. A
+multi-item questionnaire exploring the construct(s) would be presented
+to the consultees before and after the consultation. This same
+questionnaire could be presented a few months later to see how long-term
+the change in perspectives for the consultee(s) is (if at all). How
+perspective change then impacts the CYP could be explored through
+interviews or questionnaires, as potentially increased support may be
+given, or the consultees may have a more positive outlook for the CYP.
 
-The present data presents opportunities for further work. Given the surface level analysis of the interview transcripts, there is large amount of data not yet examined. The use of Grounded theory [@straussGroundedTheoryMethodology] or Interpretative Phenomenological Analysis [@smithInterpretativePhenomenologicalAnalysis2003] may allow a more detailed exploration of the latent themes within the data.
+The present data presents opportunities for further work. Given the
+surface level analysis of the interview transcripts, there is large
+amount of data not yet examined. The use of Grounded theory
+[@straussGroundedTheoryMethodology] or Interpretative Phenomenological
+Analysis [@smithInterpretativePhenomenologicalAnalysis2003] may allow a
+more detailed exploration of the latent themes within the data.
 
 ## 4.4 Researcher reflections
 
-This section will explore my reflections on the research process and what I have learned from conducting this piece of research. Prior to developing this work, I did not value qualitative research methodologies. I did not understand them and consequently did not believe they could be used to explore complex phenomena in a meaningful. Learning about TA and utilising it in this research has thoroughly dissuaded me of that notion. I now clearly understand why qualitative research methods are used and their value. I will be integrating them into my future research as I believe mixed methods research is the most robust and comprehensive means of examining something like consultation. Whilst the process of TA was laborious, the results were worth the time spent. I take satisfaction in the ease with which the themes revealed themselves after the rounds of coding the transcripts. This suggests that the methodology was robust and allowed for the detailing of what I sought to examine (the effective features of consultation). I am also grateful I sent out several calls for participants. The large number of interviews presented the opportunity to create very rich data about the views regarding effective consultations from a wide range of EPs.
+This section will explore my reflections on the research process and
+what I have learned from conducting this piece of research. Prior to
+developing this work, I did not value qualitative research
+methodologies. I did not understand them and consequently did not
+believe they could be used to explore complex phenomena in a meaningful.
+Learning about TA and utilising it in this research has thoroughly
+dissuaded me of that notion. I now clearly understand why qualitative
+research methods are used and their value. I will be integrating them
+into my future research as I believe mixed methods research is the most
+robust and comprehensive means of examining something like consultation.
+Whilst the process of TA was laborious, the results were worth the time
+spent. I take satisfaction in the ease with which the themes revealed
+themselves after the rounds of coding the transcripts. This suggests
+that the methodology was robust and allowed for the detailing of what I
+sought to examine (the effective features of consultation). I am also
+grateful I sent out several calls for participants. The large number of
+interviews presented the opportunity to create very rich data about the
+views regarding effective consultations from a wide range of EPs.
 
-This work has been greatly affected by the global pandemic. However, these difficulties presented the possibility to expand the scope of this work and it has been improved for it. I have also been presented with an opportunity to explore consultation as it will likely be performed in the future: as technologically mediated consultations. Whilst tech consultations are unlikely to replace face-to-face consultations entirely, they will undoubtedly form an integral part of the EP working landscape in the future. Thus, to have explored their use and what makes them effective is highly valuable and can help EPs ensure their consultations are effective. 
+This work has been greatly affected by the global pandemic. However,
+these difficulties presented the possibility to expand the scope of this
+work and it has been improved for it. I have also been presented with an
+opportunity to explore consultation as it will likely be performed in
+the future: as technologically mediated consultations. Whilst tech
+consultations are unlikely to replace face-to-face consultations
+entirely, they will undoubtedly form an integral part of the EP working
+landscape in the future. Thus, to have explored their use and what makes
+them effective is highly valuable and can help EPs ensure their
+consultations are effective.
 
-The development and conducting of this research has been the most rewarding piece of work I have ever done. To deeply delve into the theoretical background of consultation and then explore it through qualitative and quantitative methods has given me valuable insight into consultation. I am very grateful for the opportunity to have done this work. Engaging in this exploration of consultation has solidified my desire to employ this as my primary model of working. I have seen the power of consultation over the more traditional styles of EP work and have been fully persuaded of its utility. This has strengthened my resolve to continue researching it and make it as effective as possible. Not just for the children and young people it is used in service of, or the consultees who engage in it, but other EPs who use this methodology. We are in a privileged position to help those in very difficult situations. It is therefore of imperative importance that the methods we use are evidence-based and have rigorously shown benefit for those involved.
+The development and conducting of this research has been the most
+rewarding piece of work I have ever done. To deeply delve into the
+theoretical background of consultation and then explore it through
+qualitative and quantitative methods has given me valuable insight into
+consultation. I am very grateful for the opportunity to have done this
+work. Engaging in this exploration of consultation has solidified my
+desire to employ this as my primary model of working. I have seen the
+power of consultation over the more traditional styles of EP work and
+have been fully persuaded of its utility. This has strengthened my
+resolve to continue researching it and make it as effective as possible.
+Not just for the children and young people it is used in service of, or
+the consultees who engage in it, but other EPs who use this methodology.
+We are in a privileged position to help those in very difficult
+situations. It is therefore of imperative importance that the methods we
+use are evidence-based and have rigorously shown benefit for those
+involved.
 
 ## 4.5 Conclusions
 
-This piece of work represents an attempt to systematically identify the features of consultation which lead to change for CYP. By employing a mixed methods approach, the beliefs of practicing EPs regarding the effective features of consultation were detailed, along with recorded instances of various features of consultation. These recordings were tabulated against measures of change for co-operatively agreed goals by the EP and consultees. The relative presence or absence of said features were then analysed to see if patterns of features could be identified. Whilst statistical analyses did not yield conclusive results, the breadth of qualitative data combined with the non-formal analysis of features and ratings of change present a picture of what is necessary for an effective consultation. 
+This piece of work represents an attempt to systematically identify the
+features of consultation which lead to change for CYP. By employing a
+mixed methods approach, the beliefs of practicing EPs regarding the
+effective features of consultation were detailed, along with recorded
+instances of various features of consultation. These recordings were
+tabulated against measures of change for co-operatively agreed goals by
+the EP and consultees. The relative presence or absence of said features
+were then analysed to see if patterns of features could be identified.
+Whilst statistical analyses did not yield conclusive results, the
+breadth of qualitative data combined with the non-formal analysis of
+features and ratings of change present a picture of what is necessary
+for an effective consultation.
 
-To lead an effective consultation, EPs need to have specialist knowledge to thoroughly explore an area of need for a child or young person. By creating a collaborative space in which consultees feel valued, through the development of rapport and encouraging the participation of consultees, EPs can hope to change the perspectives of those involved and identify potential solutions. By exploring the views of consultees and using various questions, a shared understanding of the CYP and situation can be created. Through consultation, EPs can impact not only those involved in the consultation, by providing therapeutic support, but those outside the consultation through the ripple effects consultation can have on people and systems. By being collaborative, consultees can not only feel empowered to support CYP but to take ownership of the situation and actively work to improve the situation for all. 
+To lead an effective consultation, EPs need to have specialist knowledge
+to thoroughly explore an area of need for a child or young person. By
+creating a collaborative space in which consultees feel valued, through
+the development of rapport and encouraging the participation of
+consultees, EPs can hope to change the perspectives of those involved
+and identify potential solutions. By exploring the views of consultees
+and using various questions, a shared understanding of the CYP and
+situation can be created. Through consultation, EPs can impact not only
+those involved in the consultation, by providing therapeutic support,
+but those outside the consultation through the ripple effects
+consultation can have on people and systems. By being collaborative,
+consultees can not only feel empowered to support CYP but to take
+ownership of the situation and actively work to improve the situation
+for all.
 
-Consultation is fundamental to the work of EPs in the U.K. and Republic of Ireland. Yet there remain significant questions as to what constitutes consultation and how it can be effective in supporting CYP. This presents great challenges to TEPs and EPs alike, resulting in many claiming to practice consultation when in fact they do not. It is therefore of vital importance for us as a profession to clarify what we mean by consultation and how we can engage in it effectively. My hope is that this work can go some way in shining a light on the core features of an effective consultation and thus empower EPs to lead consultations which improve the lives of those we seek to help.
+Consultation is fundamental to the work of EPs in the U.K. and Republic
+of Ireland. Yet there remain significant questions as to what
+constitutes consultation and how it can be effective in supporting CYP.
+This presents great challenges to TEPs and EPs alike, resulting in many
+claiming to practice consultation when in fact they do not. It is
+therefore of vital importance for us as a profession to clarify what we
+mean by consultation and how we can engage in it effectively. My hope is
+that this work can go some way in shining a light on the core features
+of an effective consultation and thus empower EPs to lead consultations
+which improve the lives of those we seek to help.
 
 \newpage
 
