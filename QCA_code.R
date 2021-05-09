@@ -1,18 +1,14 @@
 #QCA
 # Installation ---------------------------------------------------------
-install.packages("openxlsx")
-library(openxlsx)
 install.packages("tidyverse")
 library(tidyverse)
-install.packages("QCA", dependencies = TRUE)
-library(QCA)
 #Read in the data frame of the results
-first_obv     <- read.xlsx("D:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\20.11.20\\20.11.20 observation results.xlsx")
-second_obv_p  <- read.xlsx("D:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\20.12.04\\20.12.04 observation results parent.xlsx")
-second_obv_t  <- read.xlsx("D:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\20.12.04\\20.12.04 observation results teacher.xlsx")
-third_obv_p   <- read.xlsx("D:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\20.12.16\\20.12.16 Observation results parent.xlsx")
-fourth_obv_p  <- read.xlsx("D:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\21.01.14\\Family observation schedule.xlsx")
-fourth_obv_t  <- read.xlsx("D:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\21.01.14\\Teacher observation schedule.xlsx")
+first_obv     <- openxlsx::read.xlsx("D:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\20.11.20\\20.11.20 observation results.xlsx")
+second_obv_p  <- openxlsx::read.xlsx("D:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\20.12.04\\20.12.04 observation results parent.xlsx")
+second_obv_t  <- openxlsx::read.xlsx("D:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\20.12.04\\20.12.04 observation results teacher.xlsx")
+third_obv_p   <- openxlsx::read.xlsx("D:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\20.12.16\\20.12.16 Observation results parent.xlsx")
+fourth_obv_p  <- openxlsx::read.xlsx("D:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\21.01.14\\Family observation schedule.xlsx")
+fourth_obv_t  <- openxlsx::read.xlsx("D:\\Doctorate\\Assessments\\Y3\\Thesis\\Results\\Observations\\21.01.14\\Teacher observation schedule.xlsx")
 #Data tidying
 #Remove Total row at the end
 first_obv <- select(first_obv, 1:107)
@@ -73,15 +69,15 @@ first_obv_TME$Goal <- factor(first_obv_TME$Goal, levels = c(1.1,1.2,2.1,2.2,2.3,
 total_TME <- data.frame(EP = c(1,1,1,2,2,2,2,2,2,2),
                         Adult = c(1,1,2,1,2,2,2,2,1,2), 
                         Child = c(1,1,1,2,2,2,2,3,4,4),
-                        Goal = c(1.1,1.2,1.1,2.1,2.2,2.3,2.1,3.1,4.1,4.2), 
-                        Baseline = c(3,3,3,3,5,3,5,3,2,3), 
-                        Expected = c(6,5,5,7,8,5,8,4,4,5), 
-                        Actual =   c(4,4,3,3,7,4,6,3,3,4), 
-                        Change =   c(1,1,0,0,2,1,1,0,1,1))
+                        Goal = c(1.1,1.2,1.2,2.1,2.1,2.2,2.3,3.1,4.1,4.2), 
+                        Baseline = c(3,3,3,3,5,5,3,3,2,3), 
+                        Expected = c(6,5,5,7,8,8,5,4,4,5), 
+                        Actual =   c(4,4,3,3,6,7,4,3,3,4), 
+                        Change =   c(1,1,0,0,1,2,1,0,1,1))
 #total_TME$Child <- factor(total_TME$EP, levels = c("1","2","3","4"), labels = c("1", "2","3","4"))
 total_TME$EP <- factor(total_TME$EP, levels = c("1","2"), labels = c("1", "2"))
 total_TME$Adult <- factor(total_TME$Adult, levels = c("1","2"), labels = c("Teacher", "Parent"))
-total_TME$Goal <- factor(total_TME$Goal, levels = c(1.1,1.2,2.1,2.1,2.2,2.3,3.1,4.1,4.2), labels = c("Maths problems up to 10", "Accept play requests", "Not pausing when naming emotions", "Joining sounds up and reading unfamiliar words", "Using phoneme knowledge for unfamiliar words", "Maintaining a conversation", "Learning self-esteem", "Learning self-esteem", "Managing frustration when instructed"))
+total_TME$Goal <- factor(total_TME$Goal, levels = c(1.1,1.2,2.1,2.2,2.3,3.1,4.1,4.2), labels = c("Solving maths problems up to 10", "Accept play requests", "Not pausing when naming emotions", "Joining sounds up and reading unfamiliar words", "Using phoneme knowledge for unfamiliar words", "Maintaining a conversation", "Learning self-esteem", "Managing frustration when instructed"))
 
 
 #To explore the degree of change in consultations with the number of features present, I'd need to create a data frame with columns of child (teacher or parent for different column?), then feature sums, then change
@@ -133,7 +129,7 @@ Goal_&adult_change <- data.frame(Goal_Adult, Change)
 #Create a truth table where the presence or complete absence of a feature for each consultation is calculated.
 QCAtable <- all_obs_sums
 #For the QCA later, I need to have single word column names so I'm going to have to rename all of the columns
-colnames(QCAtable) = c("SK", "EI", "IFEPW", "SOP", "EPER", "EPUEK", "PIT", "Summ", "UPP", "ECV", "DWAW", "CYPS", "SS", "IG")
+colnames(QCAtable) = c("Sch knw", "EI", "IFFEPW", "SOP", "EP explain role", "EPUEK", "Plan/impl treatment", "Summ", "UPP", "ECV", "DWAW", "CYPS", "SS", "IG")
 #I need to add change to my QCA table. But there are 6 unique observations but 10 goals because some consultations have more than 1 goal. So I need to work out which rows to duplicate.
 #Run the below code twice because there are 3 goals for the first consultation.
 QCAtable <-  QCAtable %>% 
@@ -145,30 +141,11 @@ QCAtable <-  QCAtable %>%
 #Add two more copies of the 5th row as this consultation has 2 more goals attached to it.
 QCAtable <- rbind(QCAtable, QCAtable[rep(5, 2), ])
 #The duplicated rows were added to the bottom so I need to reorder
-row.names(QCAtable) <- c("1st consultation t1.1",
-                         "1st consultation t1.2",
-                         "1st consultation p1.1",
-                         "2nd consultation (teacher)",
-                         "2nd consultation p1.1",
-                         "3rd consultation (parent)",
-                         "4th consultation (teacher)",
-                         "4th consultation (parent)",
-                         "2nd consultation p1.2",
-                         "2nd consultation p1.3"
-)
+row.names(QCAtable) <- c("t1.1", "t1.2", "p1.1", "t2.1", "p2.2", "p2.3", "p2.1", "p3.1", "t4.1", "p4.2")
 
 #Easiest thing to do is to convert the row names into a column, order the data frame using that, then put the column back to the row name
 QCAtable <- tibble::rownames_to_column(QCAtable, "row_names")
-order <- c("1st consultation t1.1",
-           "1st consultation t1.2",
-           "1st consultation p1.1",
-           "2nd consultation (teacher)",
-           "2nd consultation p1.1",
-           "2nd consultation p1.2",
-           "2nd consultation p1.3",
-           "3rd consultation (parent)",
-           "4th consultation (teacher)",
-           "4th consultation (parent)")
+order <- c("t1.1", "t1.2", "p1.1", "t2.1", "p2.2", "p2.3", "p2.1", "p3.1", "t4.1", "p4.2")
 QCAtable <- QCAtable %>%
   slice(match(order, QCAtable$row_names))
 rownames(QCAtable) <- QCAtable[,1]
@@ -196,57 +173,108 @@ QCAtable$Change <- Change
 #findTh(all_obs_sums$`Understanding presenting problem`, groups = 2, hclustm = "average", distm = "euclidean")
 
 #Convert the table into a truth table but instead of the feature being classed as present for each consultation if at least one is observed, it's only classed as present if the frequency is greater than the mean.
-mean(QCAtable$SK) # 0                 
-mean(QCAtable$EI) # 0.16
-mean(QCAtable$IFEPW) #2.66
-mean(QCAtable$SOP)  #4
-mean(QCAtable$EPER) #0                
+#The row names are wrong but I can't be bothered to type them out correctly. If I need to at some point it'll be easy to change.
+mean(QCAtable$SK)     #0                 
+mean(QCAtable$EI)     #0.16   
+mean(QCAtable$IFEPW)  #2.66  
+mean(QCAtable$SOP)    #4     
+mean(QCAtable$EPER)   #0                
 mean(QCAtable$EPUEK)  #7        
-mean(QCAtable$PIT) #0  
-mean(QCAtable$Summ)  #7.16                        
-mean(QCAtable$UPP) #35.5 
-mean(QCAtable$ECV)  # 13.33 
-mean(QCAtable$DWAW) # 8.16
-mean(QCAtable$CYPS)  # 10.5                   
-mean(QCAtable$SS) # 4             
-mean(QCAtable$IG)  # 8.83
-mean(QCAtable$Change) # 0.8
+mean(QCAtable$PIT)    #0      
+mean(QCAtable$Summ)   #7.16                        
+mean(QCAtable$UPP)    #35.5  
+mean(QCAtable$ECV)    #13.33 
+mean(QCAtable$DWAW)   #8.16  
+mean(QCAtable$CYPS)   #10.5                   
+mean(QCAtable$SS)     #4              
+mean(QCAtable$IG)     #8.83
+mean(QCAtable$Change) #0.8     
 
-QCAtable$SK <- calibrate(QCAtable$SK, type = "crisp", thresholds = 1)
-QCAtable$EI <- calibrate(QCAtable$EI, type = "crisp", thresholds = 0.16)    
-QCAtable$IFEPW <- calibrate(QCAtable$IFEPW, type = "crisp", thresholds = 2.66)
-QCAtable$SOP <- calibrate(QCAtable$SOP, type = "crisp", thresholds = 4)
-QCAtable$EPER <- calibrate(QCAtable$EPER, type = "crisp", thresholds = 1) 
-QCAtable$EPUEK <- calibrate(QCAtable$EPUEK, type = "crisp", thresholds = 7)    
-QCAtable$PIT <- calibrate(QCAtable$PIT, type = "crisp", thresholds = 1) 
-QCAtable$Summ <- calibrate(QCAtable$Summ, type = "crisp", thresholds = 7.16)
-QCAtable$UPP <- calibrate(QCAtable$UPP, type = "crisp", thresholds = 35.5)
-QCAtable$ECV <- calibrate(QCAtable$ECV, type = "crisp", thresholds = 13.33)  
-QCAtable$DWAW <- calibrate(QCAtable$DWAW, type = "crisp", thresholds = 8.16)
-QCAtable$CYPS <- calibrate(QCAtable$CYPS, type = "crisp", thresholds = 10.5)
-QCAtable$SS <- calibrate(QCAtable$SS, type = "crisp", thresholds = 4)         
-QCAtable$IG <- calibrate(QCAtable$IG, type = "crisp", thresholds = 8.83)
-QCAtable$Change <- calibrate(QCAtable$Change, type = "crisp", thresholds = 0.8)
+#calibration table with non-seen features removed. Does the truth table look different with them removed? Only a little bit (2 of the cases which were present switched places in the configuration but were still classed as present)
+
+QCAtable <- QCAtable %>% select(-1, -5, -7)
+#QCAtablesensitive <- QCAtable
+#Create table with the calibrations derived from the means of the features
+QCAtable$EI     <- QCA::calibrate(QCAtable$EI, type = "crisp", thresholds = 0.16)    
+QCAtable$IFFEPW  <- QCA::calibrate(QCAtable$IFFEPW, type = "crisp", thresholds = 2.66)
+QCAtable$SOP    <- QCA::calibrate(QCAtable$SOP, type = "crisp", thresholds = 4)
+QCAtable$EPUEK  <- QCA::calibrate(QCAtable$EPUEK, type = "crisp", thresholds = 7)    
+QCAtable$Summ   <- QCA::calibrate(QCAtable$Summ, type = "crisp", thresholds = 7.16)
+QCAtable$UPP    <- QCA::calibrate(QCAtable$UPP, type = "crisp", thresholds = 35.5)
+QCAtable$ECV    <- QCA::calibrate(QCAtable$ECV, type = "crisp", thresholds = 13.33)
+QCAtable$DWAW   <- QCA::calibrate(QCAtable$DWAW, type = "crisp", thresholds = 8.16)
+QCAtable$CYPS   <- QCA::calibrate(QCAtable$CYPS, type = "crisp", thresholds = 10.5)
+QCAtable$SS    <- QCA::calibrate(QCAtable$SS, type = "crisp", thresholds = 4)         
+QCAtable$IG     <- QCA::calibrate(QCAtable$IG, type = "crisp", thresholds = 8.83)
+QCAtable$Change <- QCA::calibrate(QCAtable$Change, type = "crisp", thresholds = 0.8)
+#What happens to the QCA results if I set the threshold just below 1 so it's classed as present even if it is observed once? Then pretty much every feature is classed as always present so the analyses become meaningless.
+#QCAtablesensitive$EI     <- QCA::calibrate(QCAtablesensitive$EI, type = "crisp", thresholds = 0.16)    
+#QCAtablesensitive$IFFEPW  <- QCA::calibrate(QCAtablesensitive$IFFEPW, type = "crisp", thresholds = 0.8)
+#QCAtablesensitive$SOP    <- QCA::calibrate(QCAtablesensitive$SOP, type = "crisp", thresholds = 0.8)
+#QCAtablesensitive$EPUEK  <- QCA::calibrate(QCAtablesensitive$EPUEK, type = "crisp", thresholds = 1)    
+#QCAtablesensitive$Summ   <- QCA::calibrate(QCAtablesensitive$Summ, type = "crisp", thresholds = 1)
+#QCAtablesensitive$UPP    <- QCA::calibrate(QCAtablesensitive$UPP, type = "crisp", thresholds = 1)
+#QCAtablesensitive$ECV    <- QCA::calibrate(QCAtablesensitive$ECV, type = "crisp", thresholds = 5)
+#QCAtablesensitive$DWAW   <- QCA::calibrate(QCAtablesensitive$DWAW, type = "crisp", thresholds = 5)
+#QCAtablesensitive$CYPS   <- QCA::calibrate(QCAtablesensitive$CYPS, type = "crisp", thresholds = 5)
+#QCAtablesensitive$SS    <- QCA::calibrate(QCAtablesensitive$SS, type = "crisp", thresholds = 1)         
+#QCAtablesensitive$IG     <- QCA::calibrate(QCAtablesensitive$IG, type = "crisp", thresholds = 2)
+#QCAtablesensitive$Change <- QCA::calibrate(QCAtablesensitive$Change, type = "crisp", thresholds = 1)
+
+
+
+
+
+
+
+
+
+
+#The code below is for calibrating all the features (including the ones never seen) using the old notation so can be corrected easily
+#QCAtable$SK     <- QCA::calibrate(QCAtable$SK, type = "crisp", thresholds = 1)
+#QCAtable$EI     <- QCA::calibrate(QCAtable$EI, type = "crisp", thresholds = 0.16)    
+#QCAtable$IFEPW  <- QCA::calibrate(QCAtable$IFEPW, type = "crisp", thresholds = 2.66)
+#QCAtable$SOP    <- QCA::calibrate(QCAtable$SOP, type = "crisp", thresholds = 4)
+#QCAtable$EPER   <- QCA::calibrate(QCAtable$EPER, type = "crisp", thresholds = 1) 
+#QCAtable$EPUEK  <- QCA::calibrate(QCAtable$EPUEK, type = "crisp", thresholds = 7)    
+#QCAtable$PIT    <- QCA::calibrate(QCAtable$PIT, type = "crisp", thresholds = 1) 
+#QCAtable$Summ   <- QCA::calibrate(QCAtable$Summ, type = "crisp", thresholds = 7.16)
+#QCAtable$UPP    <- QCA::calibrate(QCAtable$UPP, type = "crisp", thresholds = 35.5)
+#QCAtable$ECV    <- QCA::calibrate(QCAtable$ECV, type = "crisp", thresholds = 13.33)  
+#QCAtable$DWAW   <- QCA::calibrate(QCAtable$DWAW, type = "crisp", thresholds = 8.16)
+#QCAtable$CYPS   <- QCA::calibrate(QCAtable$CYPS, type = "crisp", thresholds = 10.5)
+#QCAtable$SS     <- QCA::calibrate(QCAtable$SS, type = "crisp", thresholds = 4)         
+#QCAtable$IG     <- QCA::calibrate(QCAtable$IG, type = "crisp", thresholds = 8.83)
+#QCAtable$Change <- QCA::calibrate(QCAtable$Change, type = "crisp", thresholds = 0.8)
 #You need to specify the outcome for superSubset to work. The outcome I want to explain is the change, which I currently don't have in my table. I therefore need to add that. I will need to do the same threshold thing as above. Eyeballing it, I think the cut off point should be just below 1: so if any change is seen, it's classed as present. Which makes sense, given that some of the consultations saw no change. So the massive load of superSubset code for different outcomes is irrelevant to my desired analysis, because the outcome I want to explain is change.
-#ssSK <- superSubset(QCAtable, outcome = "SK", incl.cut = 0.9, cov.cut = 0.52)
-#ssEI <- superSubset(QCAtable, outcome = "EI", incl.cut = 0.9, cov.cut = 0.52)
-#ssIFEPW <- superSubset(QCAtable, outcome = "IFEPW", incl.cut = 0.9, cov.cut = 0.52)
-#ssSOP <- superSubset(QCAtable, outcome = "SOP", incl.cut = 0.9, cov.cut = 0.52)
-#ssEPER <- superSubset(QCAtable, outcome = "EPER", incl.cut = 0.9, cov.cut = 0.52)
-#ssEPUEK <- superSubset(QCAtable, outcome = "EPUEK", incl.cut = 0.9, cov.cut = 0.52)
-#ssPIT <- superSubset(QCAtable, outcome = "PIT", incl.cut = 0.9, cov.cut = 0.52)
-#ssSumm <- superSubset(QCAtable, outcome = "Summ", incl.cut = 0.9, cov.cut = 0.52)
-#ssUPP <- superSubset(QCAtable, outcome = "UPP", incl.cut = 0.9, cov.cut = 0.52)
-#ssECV <- superSubset(QCAtable, outcome = "ECV", incl.cut = 0.9, cov.cut = 0.52)
-#ssDWAW <- superSubset(QCAtable, outcome = "DWAW", incl.cut = 0.9, cov.cut = 0.52)
-#ssCYPS <- superSubset(QCAtable, outcome = "CYPS", incl.cut = 0.9, cov.cut = 0.52)
-#ssSS <- superSubset(QCAtable, outcome = "SS", incl.cut = 0.9, cov.cut = 0.52)
-#ssIG <- superSubset(QCAtable, outcome = "IG", incl.cut = 0.9, cov.cut = 0.52)
+#ssSK     <- superSubset(QCAtable, outcome = "SK", incl.cut = 0.9, cov.cut = 0.52)
+#ssEI     <- superSubset(QCAtable, outcome = "EI", incl.cut = 0.9, cov.cut = 0.52)
+#ssIFEPW  <- superSubset(QCAtable, outcome = "IFEPW", incl.cut = 0.9, cov.cut = 0.52)
+#ssSOP    <- superSubset(QCAtable, outcome = "SOP", incl.cut = 0.9, cov.cut = 0.52)
+#ssEPER   <- superSubset(QCAtable, outcome = "EPER", incl.cut = 0.9, cov.cut = 0.52)
+#ssEPUEK  <- superSubset(QCAtable, outcome = "EPUEK", incl.cut = 0.9, cov.cut = 0.52)
+#ssPIT    <- superSubset(QCAtable, outcome = "PIT", incl.cut = 0.9, cov.cut = 0.52)
+#ssSumm   <- superSubset(QCAtable, outcome = "Summ", incl.cut = 0.9, cov.cut = 0.52)
+#ssUPP    <- superSubset(QCAtable, outcome = "UPP", incl.cut = 0.9, cov.cut = 0.52)
+#ssECV    <- superSubset(QCAtable, outcome = "ECV", incl.cut = 0.9, cov.cut = 0.52)
+#ssDWAW   <- superSubset(QCAtable, outcome = "DWAW", incl.cut = 0.9, cov.cut = 0.52)
+#ssCYPS   <- superSubset(QCAtable, outcome = "CYPS", incl.cut = 0.9, cov.cut = 0.52)
+#ssSS     <- superSubset(QCAtable, outcome = "SS", incl.cut = 0.9, cov.cut = 0.52)
+#ssIG     <- superSubset(QCAtable, outcome = "IG", incl.cut = 0.9, cov.cut = 0.52)
 #Should I remove the columns with 0 counts? No because the absence of this feature is meaningful, even if it is literally never seen.
 #There are 196 possible logical causal combinations (14 features x 14)
 #Sufficiency gives far fewer results than necessity but the results are all the same.
-ssChange <- superSubset(QCAtable, outcome = "Change", relation = "necessity", incl.cut = 0.9, cov.cut = 0.52)
-#My QCAtable has two sets of the same observation which both lead to change. Should I combine them so that each row is a unique combination of
+necChange <- QCA::superSubset(QCAtable, outcome = "Change", relation = "necessity", incl.cut = 0.9, cov.cut = 0.52)
+sufChange <- QCA::superSubset(QCAtable, outcome = "Change", relation = "sufficiency", incl.cut = 0.9, cov.cut = 0.52)
+#inclN = necessity inclusion of C, (C = condition). Inclusion = cases where O is present and C isn't.
+#covN = necessity of coverage of C. Coverage = cases where C is present but O isn't.
+
+
+#Create a truth table
+QCATT <- QCA::truthTable(QCAtable, outcome = "Change", show.cases = TRUE, sort.by = c("incl", "n"))
+#I don't think I'm going to bother with the Boolean minimisation because it doesn't tell me anything massively useful. 
+QCASC <- QCA::minimize(QCATT, details = TRUE, show.cases = TRUE)
+
 #Remove rows without recorded change so I can eyeball the results
 slimQCAtable <- QCAtable
 slimQCAtable <- slimQCAtable[-c(3,4,8),]
@@ -255,8 +283,8 @@ slimQCAtable <- slimQCAtable[-c(3,4,8),]
 
 
 #ggplot graph. I need to make a vector for each of the 3 variables I want to plot (stage on the x, rating on the y, and then grouped by which goal for which person). I need Stage to be a factor to get the proper x axis label.
-GoalXAdult <- c("t1.1", "t1.1", "t1.1", "t1.2", "t1.2", "t1.2", "p1.1", "p1.1", "p1.1", "t2.1", "t2.1", "t2.1", "p2.2", "p2.2", "p2.2", "p2.3", "p2.3", "p2.3", "p2.1", "p2.1", "p2.1", "p3.1", "p3.1", "p3.1", "t4.1", "t4.1", "t4.1", "p4.2", "p4.2", "p4.2")
-GoalXAdult <- factor(GoalXAdult, levels = c("t1.1", "t1.2", "p1.1", "t2.1", "p2.2", "p2.3", "p2.1", "p3.1", "t4.1", "p4.2"))
+GoalxAdult <- c("t1.1", "t1.1", "t1.1", "t1.2", "t1.2", "t1.2", "p1.1", "p1.1", "p1.1", "t2.1", "t2.1", "t2.1", "p2.2", "p2.2", "p2.2", "p2.3", "p2.3", "p2.3", "p2.1", "p2.1", "p2.1", "p3.1", "p3.1", "p3.1", "t4.1", "t4.1", "t4.1", "p4.2", "p4.2", "p4.2")
+GoalxAdult <- factor(GoalxAdult, levels = c("t1.1", "t1.2", "p1.1", "t2.1", "p2.2", "p2.3", "p2.1", "p3.1", "t4.1", "p4.2"))
 Stage <- c(1,2,3,
            1,2,3,
            1,2,3,
@@ -278,8 +306,10 @@ Rating <- c(3,6,4,
             3,4,3,
             2,4,3,
             3,5,4)
-tibble <- data.frame(GoalXAdult, Stage, Rating)
+tibble <- data.frame(GoalxAdult, Stage, Rating)
 
-ggplot(tibble, aes(x=Stage, y=Rating, group = GoalXAdult)) +
-  geom_line(aes(color = GoalXAdult), size = 1.2) +
-  geom_point(size=3)
+p <- ggplot(tibble, aes(x=Stage, y=Rating, group = GoalxAdult)) +
+  geom_line(aes(color = GoalxAdult), size = 1.2) +
+  geom_point(size=3) +
+  geom_jitter(width = 0.1, height = 0.1, aes(color = GoalxAdult)) + 
+  scale_color_discrete(name = "Adult, Child, Goal")

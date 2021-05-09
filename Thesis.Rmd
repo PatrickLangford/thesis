@@ -7,7 +7,6 @@ output:
   pdf_document: null
 date: "28/05/2021"
 bibliography: Thesis.bib
-link-citations: yes
 editor_options:
   markdown:
     wrap: 72
