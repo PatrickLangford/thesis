@@ -1,0 +1,56 @@
+---
+date: "28/05/2021"
+author: "Patrick Langford"
+title: "What Are The Effective Features Of Consultation? A Mixed Methods Analysis"
+output: 
+  officedown::rdocx_document:
+        reference_docx: reference_style_01.docx
+bibliography: Thesis.bib
+csl: apa
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.cap = TRUE)
+library(officedown)
+library(officer)
+
+fp <- fp_par(
+  text.align = "center", 
+  padding.bottom = 20, padding.top = 120, 
+  border.bottom = fp_border())
+
+ft <- fp_text(shading.color='#EFEFEF', bold = TRUE)
+```
+
+
+\newpage
+
+```{r TME results}
+#I create the data and then I turn them into factors.
+total_TME <- data.frame(EP = c(1,1,1,2,2,2,2,2,2,2),
+                        Adult = c(1,1,2,1,2,2,2,2,1,2), 
+                        Child = c(1,1,1,2,2,2,2,3,4,4),
+                        Goal = c(1.1,1.2,1.2,2.1,2.1,2.2,2.3,3.1,4.1,4.2), 
+                        Baseline = c(3,3,3,3,5,5,3,3,2,3), 
+                        Expected = c(6,5,5,7,8,8,5,4,4,5), 
+                        Actual =   c(4,4,3,3,6,7,4,3,3,4), 
+                        Change =   c(1,1,0,0,1,2,1,0,1,1))
+#total_TME$Child <- factor(total_TME$EP, levels = c("1","2","3","4"), labels = c("1", "2","3","4"))
+total_TME$EP <- factor(total_TME$EP, levels = c("1","2"), labels = c("1", "2"))
+total_TME$Adult <- factor(total_TME$Adult, levels = c("1","2"), labels = c("Teacher", "Parent"))
+total_TME$Goal <- factor(total_TME$Goal, levels = c(1.1,1.2,2.1,2.2,2.3,3.1,4.1,4.2), labels = c("Solving maths problems up to 10", "Accept play requests", "Not pausing when naming emotions", "Joining sounds up and reading unfamiliar words", "Using phoneme knowledge for unfamiliar words", "Maintaining a conversation", "Learning self-esteem", "Managing frustration when instructed"))
+
+```
+
+```{r tab.cap = "TME goals with ratings for baseline, expected, and actual", tab.id = "TME"}
+total_TME
+```
+
+
+## Reference
+
+see figure \@ref(fig:boxplot) and table \@ref(tab:mtcars)!
+

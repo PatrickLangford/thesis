@@ -1,0 +1,300 @@
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[tbp]
+
+\begin{center}
+\begin{threeparttable}
+
+\caption{\label{tab:Definition of deductive codes}}
+
+\begin{tabular}{ll}
+\toprule
+Category & \multicolumn{1}{c}{Definition}\\
+\midrule
+School knowledge & A back and forth exchange where the EP made a comment or asked a question which increased understanding of how the school works.\\
+Empowering individuals & Any comments or questions which aim to increase the skills of the consultees (teachers, parents, SENCOs, etc.)/upskilling consultees sothey can solve their problems [@nolanProcessPsychologicalConsultation2014].\\
+Ideas for future EP work & Discussion of potential work an EP can do in the future, such as consultation, assessment, observation, etc.\\
+Setting out plan for consultation & Discussion of what will happen over the course of the consultation.\\
+EP explaining role & EP explicitly talking about the work of an EP and its purpose.\\
+EP using expert knowledge & EP discussing topics which they have knowledge of (from both professional experience and academic reading) within school psychology theory and practice.\\
+Planning/implementing treatments & Discussion and agreement between the consultant and consultee onany interventions that will be implemented to support the CYP [@sheridanSchoolConsultation2000].\\
+Summarising & The EP saying back what has previously been stated by consultees inthe consultation (potentially building on it but not necessarily).\\
+Understanding presenting problem & A back and forth exchange where the EP made a comment or asked a question which explored the aspect of the main presenting concern(s) including scope, environmental factors, exceptions, etc. and why a problem may be present [@sheridanSchoolConsultation2000].\\
+Everyone's contributions valued & Consultees giving their view on something e.g. presenting hypotheses, suggesting solutions, or the EP explicitly acknowledging someone for their contribution. Not just the consultee(s) speaking/giving an answer to a factual question.\\
+Discussing what's already working & Discussion (including evaluation) of any intervention/change which has improved the current situation for the CYP.\\
+CYP strengths & Any discussion of the CYP’s positive qualities: attributes, personality,actions, etc.\\
+Suggesting solutions & The EP volunteering a solution to the presenting concern.\\
+Info gather & A back and forth exchange where the EP made a comment or asked a question which sought to gather more information about a non-key concern(s).\\
+\bottomrule
+\end{tabular}
+
+\end{threeparttable}
+\end{center}
+
+\end{table*}
+\efloatseparator
+ 
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.44}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.51}}@{}}
+\toprule
+Category & Definition \\
+\midrule
+\endhead
+School knowledge & A back and forth exchange where
+the EP made a comment or asked a
+question which increased
+understanding of how the school
+works. \\
+Empowering individuals & Any comments or questions which
+aimed to increase the skills of
+the consultees (teachers, parents,
+SENCOs, etc.)/upskilled consultees
+so they can solve their problems
+(Nolan \& Moreland, 2014). \\
+Ideas for future EP work & Discussion of potential work an EP
+could do in the future, such as
+consultation, assessment,
+observation, etc. \\
+Setting out plan for
+consultation & Discussion of what would happen
+over the course of the
+consultation. \\
+EP explaining role & EP explicitly talked about the
+work of an EP and their purpose. \\
+EP using expert knowledge & EP discussed topics which they
+have knowledge of (from both
+professional experience and
+academic reading) within school
+psychology theory and practice. \\
+Planning/implementing
+treatments & Discussion and agreement between
+the consultant and consultee(s) on
+any interventions that would be
+implemented to support the CYP
+(Sheridan et al., 2000). \\
+Summarising & The EP said back what has
+previously been stated by
+consultee(s) in the consultation
+(not necessarily building on it) \\
+Understanding presenting & A back and forth exchange where
+the EP made a comment or asked a
+question which explored the
+problem main presenting concern(s)
+including scope, environmental
+factors, exceptions, etc. and why
+a problem may be present
+(Sheridan et al., 2000) \\
+Everyone's contributions
+valued & Consultees gave their view on
+something e.g.~presented
+hypotheses, suggested solutions,
+or the EP explicitly acknowledged
+someone for their contribution.
+Not just when the consultee(s)
+spoke/gave an answer to a factual
+question. \\
+Discussing what's already
+working & A back and forth exchange where
+the EP made a comment or asked a
+question which explored an
+intervention/change which had
+improved the current situation for
+the CYP. This included evaluation
+of said intervention/change. \\
+CYP strengths & Any discussion of the CYP's
+positive qualities: attributes,
+personality, actions, etc. \\
+Suggesting solutions & The EP volunteered a solution to
+the presenting concern. \\
+Info gather & A back and forth exchange where
+the EP made a comment or asked a
+question which sought to gather
+more information about a non-key
+concern(s). \\
+\bottomrule
+\end{longtable}
+\efloatseparator
+ 
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.35}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.64}}@{}}
+\toprule
+Code & Definition \\
+\midrule
+\endhead
+Assessment & How consultation can be a form of
+assessment. \\
+Changing perspectives & Any discussion of the EP changing the
+perspectives of consultees during
+consultation or the understanding of
+consultation by consultees. \\
+Clarity & Gaining clarity regarding the issues
+through formulation etc. \\
+Collaborative & Any discussion of a joint or collaborative
+aspect of consultation. \\
+Confidential & Confidentiality and privacy \\
+Consultee view of
+consultation & How the consultees view consultation and
+understand it, as well as discussion of
+increasing understanding through training. \\
+Consultee views of EPs & How the consultee views the role of the EP,
+including as the expert. \\
+Different views & Gaining the views of a variety of different
+people, including the young person, to
+explore narratives and triangulate
+evidence. \\
+Documentation & Writing of notes or reports which detail
+what happened. \\
+Education systems & How the school systems and bureaucratic
+processes of the British education system
+impact consultation. \\
+EP encouraging
+engagement & The EP being engaged in the consultation
+through active listening to challenge
+narratives and facilitate discussion. \\
+EP view of
+consultation & The EPs understanding of consultation. \\
+EP view of EPs & The EPs understanding of their role,
+including as the expert. \\
+EP workload & How the high workload EPs experience
+impacts consultation. \\
+Goal setting & Explicit discussion of outcomes and goal
+setting. \\
+Individual differences & How the personalities and histories of the
+consultees and consultors impacts
+consultation. \\
+Key people & Having the people who are most concerned
+present. \\
+Language & Using language that can be understood by
+all as well as issues regarding English as
+an Additional Language. \\
+Preparation & Time for the consultees and consultors to
+prepare. \\
+Preventative & How consultation can help prevent issues
+arising or exacerbating. \\
+Questioning & Use of a wide range of questions within
+consultation for a multitude of purposes,
+including to explore and challenge. \\
+Rapport & The importance of relationships with those
+involved and how it can be developed. \\
+Reflective & Reflecting on an individual consultation,
+receiving feedback, or having a review
+consultation to explore how the situation
+has progressed. \\
+Reflexive & In consultation checking, by the EP, of how
+they and others might be affected by the
+discussion as well as what they are saying
+and why. \\
+Resources & How a lack of resources from the school can
+impact on consultation, including not
+giving teachers enough time for them. \\
+Space & Having both the physical and mental space
+to engage with consultation. \\
+Supporting consultees & EPs providing therapeutic support for
+consultees during a consultation. \\
+Time & Having enough time within the consultation
+to maximise its use. \\
+Understanding of SEN & How consultees and schools see special
+educational needs in children and how it
+impacts consultation. \\
+Use of aids & Using aids such as Planning Alternative
+Tomorrows with Hope etc. \\
+Way forward & General statements about how consultation
+can provide a way forward. \\
+Willing to engage & Consultees being willing to engage with the
+process of consultation. \\
+\bottomrule
+\end{longtable}
+\efloatseparator
+ 
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.35}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.64}}@{}}
+\toprule
+Code & Definition \\
+\midrule
+\endhead
+Consultee ownership & Consultees having a sense of responsibility
+for what will happen next to support the
+CYP. \\
+Consultees as experts & Viewing consultees as experts in the lives
+of the child or as teachers of the child
+who have valuable knowledge to share. \\
+Efficient & Being able to impact at multiple levels,
+over time, and have wide ranging impacts. \\
+Outside system & EPs being outside the school system giving
+them a meta perspective, a new way of
+seeing things, which allows them to
+challenge and explore. \\
+Realistic & The recommendations made are realistic to
+the setting and capabilities of those
+involved, including regarding resources,
+and are time bound. \\
+Varied space for
+approach & Consultation being a highly flexible
+vehicle to support CYP. \\
+\bottomrule
+\end{longtable}
+\efloatseparator
+ 
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+Code & File n & Total code n \\
+\midrule
+\endhead
+Everyone's contributions valued & 14 & 33 \\
+CYP strengths & 7 & 9 \\
+Empowering individuals & 19 & 68 \\
+Exception seeking & 5 & 8 \\
+EP explaining role & 5 & 5 \\
+Ideas for future EP work & 4 & 4 \\
+Information gathering & 18 & 48 \\
+EP using expert knowledge & 30 & 223 \\
+Understanding presenting problem & 16 & 35 \\
+School knowledge & 3 & 4 \\
+Setting out plan for consultation & 16 & 31 \\
+Suggesting solutions & 11 & 14 \\
+Summarising & 6 & 7 \\
+Planning/ implementing treatments & 8 & 15 \\
+Discussing what's already working & 11 & 21 \\
+Assessment & 5 & 14 \\
+Changing perspectives & 25 & 118 \\
+Clarity & 17 & 37 \\
+Collaborative & 29 & 212 \\
+Confidential & 10 & 13 \\
+Consultee view of consultation & 28 & 155 \\
+Consultee views of EPs & 26 & 84 \\
+Different views & 27 & 150 \\
+Documentation & 8 & 10 \\
+Education systems & 27 & 134 \\
+EP encouraging engagement & 29 & 119 \\
+EP view of consultation & 22 & 77 \\
+EP view of EPs & 14 & 28 \\
+EP workload & 7 & 16 \\
+Goal setting & 13 & 21 \\
+Individual differences & 24 & 47 \\
+Key people & 27 & 81 \\
+Language & 8 & 13 \\
+Preparation & 10 & 22 \\
+Preventative & 5 & 5 \\
+Questioning & 19 & 43 \\
+Rapport & 26 & 91 \\
+Reflective & 26 & 110 \\
+Reflexive & 9 & 21 \\
+Resources & 15 & 22 \\
+Space & 15 & 20 \\
+Supporting consultees & 12 & 27 \\
+Time & 22 & 61 \\
+Understanding of SEN & 3 & 7 \\
+Use of aids & 10 & 22 \\
+Way forward & 13 & 22 \\
+Willing to engage & 19 & 41 \\
+Consultee ownership & 15 & 27 \\
+Consultees as experts & 5 & 6 \\
+Efficient & 18 & 43 \\
+Outside system & 8 & 12 \\
+Realistic & 7 & 11 \\
+Varied space for approach & 10 & 15 \\
+\bottomrule
+\end{longtable}
